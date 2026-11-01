@@ -1,0 +1,39 @@
+﻿attempt_id,item_id,source_correctness,regraded_result,response_raw,response_normalized,expected_vectors,answer_key_source
+attempt_000773,40771606,N,correct,(3),"[""3""]","[[""3""]]",consistent_original_Y_responses
+attempt_001810,40771540,N,correct,+6/^ROW^/-3/^ROW^/+3,"[""6"",""-3"",""3""]","[[""-3"",""6"",""3""],[""6"",""-3"",""3""]]",manual_conflict_review
+attempt_001884,40771540,N,correct,+6/^ROW^/-3/^ROW^/+3,"[""6"",""-3"",""3""]","[[""-3"",""6"",""3""],[""6"",""-3"",""3""]]",manual_conflict_review
+attempt_001999,40770375,N,correct,0/^ROW^/6/^ROW^/9,"[""0"",""6"",""9""]","[[""0"",""6"",""9""]]",consistent_original_Y_responses
+attempt_002646,40770375,N,correct,0/^ROW^/6/^ROW^/9,"[""0"",""6"",""9""]","[[""0"",""6"",""9""]]",consistent_original_Y_responses
+attempt_002722,40771540,N,correct,-3/^ROW^/+6/^ROW^/+3,"[""-3"",""6"",""3""]","[[""-3"",""6"",""3""],[""6"",""-3"",""3""]]",manual_conflict_review
+attempt_004028,40770375,N,correct,0/^ROW^/6/^ROW^/9,"[""0"",""6"",""9""]","[[""0"",""6"",""9""]]",consistent_original_Y_responses
+attempt_005174,40770434,N,correct,덧셈의 교환법칙/^ROW^/덧셈의 결합법칙/^ROW^/+3,"[""교환법칙"",""결합법칙"",""3""]","[[""교환법칙"",""결합법칙"",""3""]]",consistent_original_Y_responses
+attempt_006039,40770375,N,correct,0/^ROW^/6/^ROW^/9,"[""0"",""6"",""9""]","[[""0"",""6"",""9""]]",consistent_original_Y_responses
+attempt_007032,40770434,N,correct,교환법칙/^ROW^/결합법칙/^ROW^/+3,"[""교환법칙"",""결합법칙"",""3""]","[[""교환법칙"",""결합법칙"",""3""]]",consistent_original_Y_responses
+attempt_007542,40770434,N,correct,교환법칙/^ROW^/결합법칙/^ROW^/+3,"[""교환법칙"",""결합법칙"",""3""]","[[""교환법칙"",""결합법칙"",""3""]]",consistent_original_Y_responses
+attempt_007958,40769408,N,correct,-3/^ROW^/-2/^ROW^/-1/^ROW^/0/^ROW^/+1/^ROW^/+2/^ROW^/+3/^ROW^/-2/^ROW^/-1/^ROW^/0/^ROW^/+1/^ROW^/+2,"[""-3"",""-2"",""-1"",""0"",""1"",""2"",""3"",""-2"",""-1"",""0"",""1"",""2""]","[[""-3"",""-2"",""-1"",""0"",""1"",""2"",""3"",""-2"",""-1"",""0"",""1"",""2""]]",consistent_original_Y_responses
+attempt_007959,40769408,N,correct,-3/^ROW^/-2/^ROW^/-1/^ROW^/0/^ROW^/+1/^ROW^/+2/^ROW^/+3/^ROW^/-2/^ROW^/-1/^ROW^/0/^ROW^/+1/^ROW^/+2,"[""-3"",""-2"",""-1"",""0"",""1"",""2"",""3"",""-2"",""-1"",""0"",""1"",""2""]","[[""-3"",""-2"",""-1"",""0"",""1"",""2"",""3"",""-2"",""-1"",""0"",""1"",""2""]]",consistent_original_Y_responses
+attempt_007974,40771540,N,correct,-3/^ROW^/+6/^ROW^/+3,"[""-3"",""6"",""3""]","[[""-3"",""6"",""3""],[""6"",""-3"",""3""]]",manual_conflict_review
+attempt_008291,40771540,N,correct,+6/^ROW^/-3/^ROW^/+3,"[""6"",""-3"",""3""]","[[""-3"",""6"",""3""],[""6"",""-3"",""3""]]",manual_conflict_review
+attempt_008435,40770434,N,correct,교환법칙/^ROW^/결합법칙/^ROW^/+3,"[""교환법칙"",""결합법칙"",""3""]","[[""교환법칙"",""결합법칙"",""3""]]",consistent_original_Y_responses
+attempt_008437,40770708,N,correct,+9,"[""9""]","[[""9""]]",consistent_original_Y_responses
+attempt_008528,40771540,N,correct,-3/^ROW^/+6/^ROW^/+3,"[""-3"",""6"",""3""]","[[""-3"",""6"",""3""],[""6"",""-3"",""3""]]",manual_conflict_review
+attempt_008799,40770375,N,correct,0/^ROW^/6/^ROW^/9,"[""0"",""6"",""9""]","[[""0"",""6"",""9""]]",consistent_original_Y_responses
+attempt_008938,40770375,N,correct,0/^ROW^/6/^ROW^/9,"[""0"",""6"",""9""]","[[""0"",""6"",""9""]]",consistent_original_Y_responses
+attempt_010104,40770375,N,correct,0/^ROW^/6/^ROW^/9,"[""0"",""6"",""9""]","[[""0"",""6"",""9""]]",consistent_original_Y_responses
+attempt_010143,40771540,N,correct,-3/^ROW^/+6/^ROW^/3,"[""-3"",""6"",""3""]","[[""-3"",""6"",""3""],[""6"",""-3"",""3""]]",manual_conflict_review
+attempt_010164,40770375,N,correct,0/^ROW^/6/^ROW^/9,"[""0"",""6"",""9""]","[[""0"",""6"",""9""]]",consistent_original_Y_responses
+attempt_010577,40771540,N,correct,-3/^ROW^/+6/^ROW^/+3,"[""-3"",""6"",""3""]","[[""-3"",""6"",""3""],[""6"",""-3"",""3""]]",manual_conflict_review
+attempt_011332,40771540,N,correct,-3/^ROW^/+6/^ROW^/+3,"[""-3"",""6"",""3""]","[[""-3"",""6"",""3""],[""6"",""-3"",""3""]]",manual_conflict_review
+attempt_012265,40770434,N,correct,교환법칙/^ROW^/결합법칙/^ROW^/+3,"[""교환법칙"",""결합법칙"",""3""]","[[""교환법칙"",""결합법칙"",""3""]]",consistent_original_Y_responses
+attempt_012389,40771540,N,correct,+6/^ROW^/-3/^ROW^/3,"[""6"",""-3"",""3""]","[[""-3"",""6"",""3""],[""6"",""-3"",""3""]]",manual_conflict_review
+attempt_012677,40770434,N,correct,교환 법칙/^ROW^/결합 법칙/^ROW^/+3,"[""교환법칙"",""결합법칙"",""3""]","[[""교환법칙"",""결합법칙"",""3""]]",consistent_original_Y_responses
+attempt_012793,40771540,N,correct,-3/^ROW^/+6/^ROW^/+3,"[""-3"",""6"",""3""]","[[""-3"",""6"",""3""],[""6"",""-3"",""3""]]",manual_conflict_review
+attempt_012795,40771540,N,correct,+6/^ROW^/-3/^ROW^/+3,"[""6"",""-3"",""3""]","[[""-3"",""6"",""3""],[""6"",""-3"",""3""]]",manual_conflict_review
+attempt_012796,40771540,N,correct,-3/^ROW^/+6/^ROW^/3,"[""-3"",""6"",""3""]","[[""-3"",""6"",""3""],[""6"",""-3"",""3""]]",manual_conflict_review
+attempt_013186,40770434,N,correct,덧셈의 교환법칙/^ROW^/덧셈의 결합법칙/^ROW^/+3,"[""교환법칙"",""결합법칙"",""3""]","[[""교환법칙"",""결합법칙"",""3""]]",consistent_original_Y_responses
+attempt_017055,40860216,Y,partial,8/^ROW^/8/^ROW^/8/^ROW^/팔각형/^ROW^/구각형,"[""8"",""8"",""8"",""8각형"",""9각형""]","[[""8"",""5"",""8"",""8각형"",""9각형""],[""5"",""8"",""8"",""8각형"",""9각형""]]",manual_conflict_review
+attempt_018701,41112282,Y,partial,①,"[""①""]","[[""①"",""⑤""]]",source_choice_answer
+attempt_019973,41112282,Y,partial,①,"[""①""]","[[""①"",""⑤""]]",source_choice_answer
+attempt_020846,41020553,Y,partial,63/^ROW^/4,"[""63"",""4""]","[[""63"",""8""]]",manual_conflict_review
+attempt_022687,41022224,N,correct,BC/^ROW^/AC,"[""bc"",""ac""]","[[""bc"",""ac""]]",manual_source_answer_alignment
+attempt_023165,41022224,N,correct,BC/^ROW^/AC,"[""bc"",""ac""]","[[""bc"",""ac""]]",manual_source_answer_alignment

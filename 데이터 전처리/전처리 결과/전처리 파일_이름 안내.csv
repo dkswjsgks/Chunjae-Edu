@@ -1,0 +1,18 @@
+﻿이전 또는 코드 내부 파일명,현재 파일명
+items.csv,문항 정보_전처리.csv
+attempts.csv,학습자 풀이 이력_전처리.csv
+blank_responses.csv,빈칸별 응답_재채점.csv
+ontology_nodes.csv,단원 및 지식_분류표.csv
+topic_knowledge.csv,토픽과 지식_연결표.csv
+answer_keys.csv,문항별 빈칸_기준정답.csv
+answer_key_candidates.csv,정답 응답_관측 목록.csv
+manual_59_review.csv,정답자 없는 59문항_검토.csv
+issues.csv,데이터_검토 필요 목록.csv
+changes.csv,데이터_복원 및 수정 이력.csv
+normalization_changes.csv,응답값_정규화 이력.csv
+grading_disagreements.csv,원본 채점과 재채점_불일치.csv
+item_packets.jsonl,문항별 인공지능 분석_입력자료.jsonl
+audit_summary.json,전처리_검증 요약.json
+README.md,전처리 결과_설명서.md
+student_knowledge_summary.csv,학생별 지식_학습 요약.csv
+output_file_names.csv,전처리 파일_이름 안내.csv

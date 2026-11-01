@@ -1,0 +1,218 @@
+{
+  "input_sha256": {
+    "학습자 풀이 이력(아이디 난수화)_샘플.csv": "6b3d587cb192be8c7f0335ecd0d2c06eeff2033bbc95dda591ec39c344df6643",
+    "문항_샘플.csv": "6c8c181cdddb14648f71f5f08685bf6c588e7ef93338d88b29ad63ace656ff4f"
+  },
+  "manual_review_sha256": "60cd0bf3d7388625d5c810dcb4a8a82bf94f7e65a115cc23028f908373419bf0",
+  "counts": {
+    "items": 2197,
+    "attempts": 23409,
+    "students": 1726,
+    "tests": 4310,
+    "attempted_items": 2192,
+    "repaired_rows": 1908,
+    "mapped_pngs": 521,
+    "blank_rows": 32546,
+    "knowledge_nodes": 21,
+    "no_correct_short_answer_items": 59,
+    "student_knowledge_pairs": 6600,
+    "repeat_item_attempts": 1297,
+    "simultaneous_same_item_attempts": 0
+  },
+  "output_file_names": {
+    "items.csv": "문항 정보_전처리.csv",
+    "attempts.csv": "학습자 풀이 이력_전처리.csv",
+    "blank_responses.csv": "빈칸별 응답_재채점.csv",
+    "ontology_nodes.csv": "단원 및 지식_분류표.csv",
+    "topic_knowledge.csv": "토픽과 지식_연결표.csv",
+    "answer_keys.csv": "문항별 빈칸_기준정답.csv",
+    "answer_key_candidates.csv": "정답 응답_관측 목록.csv",
+    "manual_59_review.csv": "정답자 없는 59문항_검토.csv",
+    "issues.csv": "데이터_검토 필요 목록.csv",
+    "changes.csv": "데이터_복원 및 수정 이력.csv",
+    "normalization_changes.csv": "응답값_정규화 이력.csv",
+    "grading_disagreements.csv": "원본 채점과 재채점_불일치.csv",
+    "item_packets.jsonl": "문항별 인공지능 분석_입력자료.jsonl",
+    "audit_summary.json": "전처리_검증 요약.json",
+    "README.md": "전처리 결과_설명서.md",
+    "student_knowledge_summary.csv": "학생별 지식_학습 요약.csv",
+    "output_file_names.csv": "전처리 파일_이름 안내.csv"
+  },
+  "original_correctness": {
+    "Y": 14045,
+    "N": 9356,
+    "missing": 8
+  },
+  "response_states": {
+    "answered": 21510,
+    "missing": 1828,
+    "partial_missing": 71
+  },
+  "regraded_results": {
+    "correct": 14075,
+    "incorrect": 6455,
+    "partial": 1034,
+    "missing": 1828,
+    "ungraded": 17
+  },
+  "blank_grading_statuses": {
+    "correct": 20807,
+    "incorrect": 8788,
+    "missing": 2928,
+    "ungraded": 23
+  },
+  "answer_key_statuses": {
+    "source_key": 1258,
+    "empirical_key": 872,
+    "blocked_source_defect": 4,
+    "manual_key": 58,
+    "unresolved": 5
+  },
+  "issue_counts": {
+    "answer_key_unavailable": 9,
+    "content_manual_review": 8,
+    "explanation_text_missing": 109,
+    "diagram_context_missing_candidate": 17,
+    "explanation_double_questionmark": 41,
+    "question_double_questionmark": 15,
+    "no_attempt_metadata": 5,
+    "source_regrade_disagreement": 38,
+    "source_correctness_missing": 8
+  },
+  "grading_disagreements": 38,
+  "empirical_single_correct_support": 195,
+  "raw_checks": {
+    "explanation_text_missing": 109,
+    "question_double_questionmark": 15,
+    "explanation_double_questionmark": 41,
+    "raw_empty_response": 1402
+  },
+  "knowledge_counts": [
+    {
+      "grade": "1",
+      "semester": "1",
+      "knowledge": "유리수의 덧셈과 뺄셈의 혼합계산",
+      "attempts": 4105
+    },
+    {
+      "grade": "1",
+      "semester": "1",
+      "knowledge": "정수와 유리수의 대소 관계",
+      "attempts": 3014
+    },
+    {
+      "grade": "1",
+      "semester": "1",
+      "knowledge": "정수와 유리수의 대소 관계의 활용",
+      "attempts": 1774
+    },
+    {
+      "grade": "1",
+      "semester": "1",
+      "knowledge": "정수와 유리수의 덧셈",
+      "attempts": 2252
+    },
+    {
+      "grade": "1",
+      "semester": "1",
+      "knowledge": "정수와 유리수의 뺄셈",
+      "attempts": 2089
+    },
+    {
+      "grade": "1",
+      "semester": "2",
+      "knowledge": "다각형과 정다각형",
+      "attempts": 506
+    },
+    {
+      "grade": "1",
+      "semester": "2",
+      "knowledge": "다각형의 내각과 외각",
+      "attempts": 1074
+    },
+    {
+      "grade": "1",
+      "semester": "2",
+      "knowledge": "다각형의 대각선의 개수",
+      "attempts": 1852
+    },
+    {
+      "grade": "1",
+      "semester": "2",
+      "knowledge": "삼각형의 내각과 외각",
+      "attempts": 998
+    },
+    {
+      "grade": "1",
+      "semester": "2",
+      "knowledge": "삼각형의 내각과 외각의 응용",
+      "attempts": 867
+    },
+    {
+      "grade": "2",
+      "semester": "1",
+      "knowledge": "순환소수",
+      "attempts": 863
+    },
+    {
+      "grade": "2",
+      "semester": "1",
+      "knowledge": "순환소수를 분수로 고치기",
+      "attempts": 615
+    },
+    {
+      "grade": "2",
+      "semester": "1",
+      "knowledge": "유리수",
+      "attempts": 476
+    },
+    {
+      "grade": "2",
+      "semester": "1",
+      "knowledge": "유한소수",
+      "attempts": 413
+    },
+    {
+      "grade": "2",
+      "semester": "1",
+      "knowledge": "유한소수, 순환소수가 되게 하는 값",
+      "attempts": 603
+    },
+    {
+      "grade": "2",
+      "semester": "2",
+      "knowledge": "각의 이등분선의 성질",
+      "attempts": 308
+    },
+    {
+      "grade": "2",
+      "semester": "2",
+      "knowledge": "이등변삼각형에서 각의 크기 구하기",
+      "attempts": 501
+    },
+    {
+      "grade": "2",
+      "semester": "2",
+      "knowledge": "이등변삼각형의 성질",
+      "attempts": 457
+    },
+    {
+      "grade": "2",
+      "semester": "2",
+      "knowledge": "이등변삼각형이 되는 조건",
+      "attempts": 150
+    },
+    {
+      "grade": "2",
+      "semester": "2",
+      "knowledge": "종이를 접었을 때의 각 구하기",
+      "attempts": 109
+    },
+    {
+      "grade": "2",
+      "semester": "2",
+      "knowledge": "직각삼각형의 합동 조건",
+      "attempts": 383
+    }
+  ]
+}

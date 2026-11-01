@@ -1,0 +1,251 @@
+﻿item_id,attempt_id,code,severity,detail
+40769436,,answer_key_unavailable,review,CSV와 PNG 모두 첫 조건의 부등식이 잘림. PNG의 |A|>1도 CSV에서는 =1로 손상. 원문 재확보 필요.
+41020600,,answer_key_unavailable,review,풀이 이력이 없는 문항. 문항형태·지식·빈칸 구조를 추정하지 않음.
+41020715,,answer_key_unavailable,review,풀이 이력이 없는 문항. 문항형태·지식·빈칸 구조를 추정하지 않음.
+41022185,,answer_key_unavailable,review,정답의 ∠ ±B가 손상됐고 증명 그림·해설이 없음. 두 번째 빈칸 값을 추정하지 않음.
+41022201,,answer_key_unavailable,review,문항의 도형 조건이 누락되고 PNG·설명도 없어 재채점 보류.
+41022504,,answer_key_unavailable,review,문제에 도형 조건이 전혀 없고 PNG·설명도 없어 재채점 보류.
+41112274,,answer_key_unavailable,review,풀이 이력이 없는 문항. 문항형태·지식·빈칸 구조를 추정하지 않음.
+41112276,,answer_key_unavailable,review,풀이 이력이 없는 문항. 문항형태·지식·빈칸 구조를 추정하지 않음.
+41112303,,answer_key_unavailable,review,풀이 이력이 없는 문항. 문항형태·지식·빈칸 구조를 추정하지 않음.
+40769436,,content_manual_review,review,첫 부등식 누락. 제공 PNG도 해당 부분이 잘렸음. 원문 재요청.
+40769474,,content_manual_review,review,해설의 중간 부등호 방향이 큰 수부터 나열한 최종 정답과 불일치. 원본 유지.
+40769940,,explanation_text_missing,review,원본 해설 텍스트 없음. 이미지 설명·PNG 유무와 별도 판단
+40769941,,explanation_text_missing,review,원본 해설 텍스트 없음. 이미지 설명·PNG 유무와 별도 판단
+40769944,,explanation_text_missing,review,원본 해설 텍스트 없음. 이미지 설명·PNG 유무와 별도 판단
+40769956,,explanation_text_missing,review,원본 해설 텍스트 없음. 이미지 설명·PNG 유무와 별도 판단
+40769961,,explanation_text_missing,review,원본 해설 텍스트 없음. 이미지 설명·PNG 유무와 별도 판단
+40769962,,explanation_text_missing,review,원본 해설 텍스트 없음. 이미지 설명·PNG 유무와 별도 판단
+40770249,,explanation_text_missing,review,원본 해설 텍스트 없음. 이미지 설명·PNG 유무와 별도 판단
+40770362,,explanation_text_missing,review,원본 해설 텍스트 없음. 이미지 설명·PNG 유무와 별도 판단
+40770364,,explanation_text_missing,review,원본 해설 텍스트 없음. 이미지 설명·PNG 유무와 별도 판단
+40770368,,explanation_text_missing,review,원본 해설 텍스트 없음. 이미지 설명·PNG 유무와 별도 판단
+40770371,,explanation_text_missing,review,원본 해설 텍스트 없음. 이미지 설명·PNG 유무와 별도 판단
+40770372,,explanation_text_missing,review,원본 해설 텍스트 없음. 이미지 설명·PNG 유무와 별도 판단
+40770373,,explanation_text_missing,review,원본 해설 텍스트 없음. 이미지 설명·PNG 유무와 별도 판단
+40770374,,explanation_text_missing,review,원본 해설 텍스트 없음. 이미지 설명·PNG 유무와 별도 판단
+40770375,,explanation_text_missing,review,원본 해설 텍스트 없음. 이미지 설명·PNG 유무와 별도 판단
+40770376,,explanation_text_missing,review,원본 해설 텍스트 없음. 이미지 설명·PNG 유무와 별도 판단
+40770377,,explanation_text_missing,review,원본 해설 텍스트 없음. 이미지 설명·PNG 유무와 별도 판단
+40770378,,explanation_text_missing,review,원본 해설 텍스트 없음. 이미지 설명·PNG 유무와 별도 판단
+40770379,,explanation_text_missing,review,원본 해설 텍스트 없음. 이미지 설명·PNG 유무와 별도 판단
+40770380,,explanation_text_missing,review,원본 해설 텍스트 없음. 이미지 설명·PNG 유무와 별도 판단
+40770407,,explanation_text_missing,review,원본 해설 텍스트 없음. 이미지 설명·PNG 유무와 별도 판단
+40770411,,explanation_text_missing,review,원본 해설 텍스트 없음. 이미지 설명·PNG 유무와 별도 판단
+40770416,,explanation_text_missing,review,원본 해설 텍스트 없음. 이미지 설명·PNG 유무와 별도 판단
+40770434,,explanation_text_missing,review,원본 해설 텍스트 없음. 이미지 설명·PNG 유무와 별도 판단
+40770435,,explanation_text_missing,review,원본 해설 텍스트 없음. 이미지 설명·PNG 유무와 별도 판단
+40770436,,explanation_text_missing,review,원본 해설 텍스트 없음. 이미지 설명·PNG 유무와 별도 판단
+40770458,,explanation_text_missing,review,원본 해설 텍스트 없음. 이미지 설명·PNG 유무와 별도 판단
+40770462,,explanation_text_missing,review,원본 해설 텍스트 없음. 이미지 설명·PNG 유무와 별도 판단
+40770465,,explanation_text_missing,review,원본 해설 텍스트 없음. 이미지 설명·PNG 유무와 별도 판단
+40770469,,explanation_text_missing,review,원본 해설 텍스트 없음. 이미지 설명·PNG 유무와 별도 판단
+40770470,,explanation_text_missing,review,원본 해설 텍스트 없음. 이미지 설명·PNG 유무와 별도 판단
+40770695,,explanation_text_missing,review,원본 해설 텍스트 없음. 이미지 설명·PNG 유무와 별도 판단
+40770938,,content_manual_review,review,해설 ⑤의 (-2.7)가 선택지의 (+2.7)와 불일치. 원본 유지하고 수학 검토 필요.
+40770940,,explanation_text_missing,review,원본 해설 텍스트 없음. 이미지 설명·PNG 유무와 별도 판단
+40770944,,explanation_text_missing,review,원본 해설 텍스트 없음. 이미지 설명·PNG 유무와 별도 판단
+40770958,,explanation_text_missing,review,원본 해설 텍스트 없음. 이미지 설명·PNG 유무와 별도 판단
+40771560,,explanation_text_missing,review,원본 해설 텍스트 없음. 이미지 설명·PNG 유무와 별도 판단
+40771574,,explanation_text_missing,review,원본 해설 텍스트 없음. 이미지 설명·PNG 유무와 별도 판단
+40771575,,explanation_text_missing,review,원본 해설 텍스트 없음. 이미지 설명·PNG 유무와 별도 판단
+40771581,,explanation_text_missing,review,원본 해설 텍스트 없음. 이미지 설명·PNG 유무와 별도 판단
+40771583,,explanation_text_missing,review,원본 해설 텍스트 없음. 이미지 설명·PNG 유무와 별도 판단
+40771584,,explanation_text_missing,review,원본 해설 텍스트 없음. 이미지 설명·PNG 유무와 별도 판단
+40771586,,explanation_text_missing,review,원본 해설 텍스트 없음. 이미지 설명·PNG 유무와 별도 판단
+40771588,,explanation_text_missing,review,원본 해설 텍스트 없음. 이미지 설명·PNG 유무와 별도 판단
+40771589,,explanation_text_missing,review,원본 해설 텍스트 없음. 이미지 설명·PNG 유무와 별도 판단
+40771591,,explanation_text_missing,review,원본 해설 텍스트 없음. 이미지 설명·PNG 유무와 별도 판단
+40771598,,explanation_text_missing,review,원본 해설 텍스트 없음. 이미지 설명·PNG 유무와 별도 판단
+40771601,,explanation_text_missing,review,원본 해설 텍스트 없음. 이미지 설명·PNG 유무와 별도 판단
+40771604,,explanation_text_missing,review,원본 해설 텍스트 없음. 이미지 설명·PNG 유무와 별도 판단
+40771606,,explanation_text_missing,review,원본 해설 텍스트 없음. 이미지 설명·PNG 유무와 별도 판단
+40773221,,diagram_context_missing_candidate,review,그림/그래프/수직선 언급 + PNG 없음 + 문제 이미지 설명 없음. 실제 필수 도형 누락 여부는 검토 필요
+40773221,,explanation_double_questionmark,review,?? 검출: 인코딩 또는 변환 손상 의심
+40857766,,explanation_text_missing,review,원본 해설 텍스트 없음. 이미지 설명·PNG 유무와 별도 판단
+40857908,,explanation_text_missing,review,원본 해설 텍스트 없음. 이미지 설명·PNG 유무와 별도 판단
+40857922,,explanation_double_questionmark,review,?? 검출: 인코딩 또는 변환 손상 의심
+40857990,,diagram_context_missing_candidate,review,그림/그래프/수직선 언급 + PNG 없음 + 문제 이미지 설명 없음. 실제 필수 도형 누락 여부는 검토 필요
+40858043,,explanation_text_missing,review,원본 해설 텍스트 없음. 이미지 설명·PNG 유무와 별도 판단
+40858044,,explanation_text_missing,review,원본 해설 텍스트 없음. 이미지 설명·PNG 유무와 별도 판단
+40858166,,explanation_text_missing,review,원본 해설 텍스트 없음. 이미지 설명·PNG 유무와 별도 판단
+40858167,,explanation_text_missing,review,원본 해설 텍스트 없음. 이미지 설명·PNG 유무와 별도 판단
+40860024,,explanation_double_questionmark,review,?? 검출: 인코딩 또는 변환 손상 의심
+40860041,,explanation_text_missing,review,원본 해설 텍스트 없음. 이미지 설명·PNG 유무와 별도 판단
+40860041,,diagram_context_missing_candidate,review,그림/그래프/수직선 언급 + PNG 없음 + 문제 이미지 설명 없음. 실제 필수 도형 누락 여부는 검토 필요
+40860045,,explanation_text_missing,review,원본 해설 텍스트 없음. 이미지 설명·PNG 유무와 별도 판단
+40860072,,explanation_text_missing,review,원본 해설 텍스트 없음. 이미지 설명·PNG 유무와 별도 판단
+40860082,,explanation_text_missing,review,원본 해설 텍스트 없음. 이미지 설명·PNG 유무와 별도 판단
+40860084,,explanation_text_missing,review,원본 해설 텍스트 없음. 이미지 설명·PNG 유무와 별도 판단
+40860098,,explanation_text_missing,review,원본 해설 텍스트 없음. 이미지 설명·PNG 유무와 별도 판단
+40860116,,explanation_text_missing,review,원본 해설 텍스트 없음. 이미지 설명·PNG 유무와 별도 판단
+40860122,,explanation_text_missing,review,원본 해설 텍스트 없음. 이미지 설명·PNG 유무와 별도 판단
+40860148,,explanation_text_missing,review,원본 해설 텍스트 없음. 이미지 설명·PNG 유무와 별도 판단
+40860148,,diagram_context_missing_candidate,review,그림/그래프/수직선 언급 + PNG 없음 + 문제 이미지 설명 없음. 실제 필수 도형 누락 여부는 검토 필요
+40860149,,explanation_text_missing,review,원본 해설 텍스트 없음. 이미지 설명·PNG 유무와 별도 판단
+40860150,,explanation_text_missing,review,원본 해설 텍스트 없음. 이미지 설명·PNG 유무와 별도 판단
+40860159,,explanation_text_missing,review,원본 해설 텍스트 없음. 이미지 설명·PNG 유무와 별도 판단
+40860167,,explanation_text_missing,review,원본 해설 텍스트 없음. 이미지 설명·PNG 유무와 별도 판단
+40860220,,explanation_text_missing,review,원본 해설 텍스트 없음. 이미지 설명·PNG 유무와 별도 판단
+40860220,,diagram_context_missing_candidate,review,그림/그래프/수직선 언급 + PNG 없음 + 문제 이미지 설명 없음. 실제 필수 도형 누락 여부는 검토 필요
+40860222,,explanation_text_missing,review,원본 해설 텍스트 없음. 이미지 설명·PNG 유무와 별도 판단
+40860222,,diagram_context_missing_candidate,review,그림/그래프/수직선 언급 + PNG 없음 + 문제 이미지 설명 없음. 실제 필수 도형 누락 여부는 검토 필요
+40860223,,explanation_text_missing,review,원본 해설 텍스트 없음. 이미지 설명·PNG 유무와 별도 판단
+40860223,,diagram_context_missing_candidate,review,그림/그래프/수직선 언급 + PNG 없음 + 문제 이미지 설명 없음. 실제 필수 도형 누락 여부는 검토 필요
+40987710,,question_double_questionmark,review,?? 검출: 인코딩 또는 변환 손상 의심. 원인 확정·추정 복원하지 않음
+40987863,,explanation_text_missing,review,원본 해설 텍스트 없음. 이미지 설명·PNG 유무와 별도 판단
+40987869,,explanation_text_missing,review,원본 해설 텍스트 없음. 이미지 설명·PNG 유무와 별도 판단
+40998652,,explanation_double_questionmark,review,?? 검출: 인코딩 또는 변환 손상 의심
+40998656,,explanation_text_missing,review,원본 해설 텍스트 없음. 이미지 설명·PNG 유무와 별도 판단
+40998657,,explanation_double_questionmark,review,?? 검출: 인코딩 또는 변환 손상 의심
+40998658,,question_double_questionmark,review,?? 검출: 인코딩 또는 변환 손상 의심. 원인 확정·추정 복원하지 않음
+40998658,,explanation_double_questionmark,review,?? 검출: 인코딩 또는 변환 손상 의심
+40998659,,question_double_questionmark,review,?? 검출: 인코딩 또는 변환 손상 의심. 원인 확정·추정 복원하지 않음
+40998659,,explanation_double_questionmark,review,?? 검출: 인코딩 또는 변환 손상 의심
+41015731,,explanation_text_missing,review,원본 해설 텍스트 없음. 이미지 설명·PNG 유무와 별도 판단
+41015751,,explanation_text_missing,review,원본 해설 텍스트 없음. 이미지 설명·PNG 유무와 별도 판단
+41015751,,diagram_context_missing_candidate,review,그림/그래프/수직선 언급 + PNG 없음 + 문제 이미지 설명 없음. 실제 필수 도형 누락 여부는 검토 필요
+41015769,,explanation_text_missing,review,원본 해설 텍스트 없음. 이미지 설명·PNG 유무와 별도 판단
+41015769,,diagram_context_missing_candidate,review,그림/그래프/수직선 언급 + PNG 없음 + 문제 이미지 설명 없음. 실제 필수 도형 누락 여부는 검토 필요
+41015778,,explanation_text_missing,review,원본 해설 텍스트 없음. 이미지 설명·PNG 유무와 별도 판단
+41015778,,diagram_context_missing_candidate,review,그림/그래프/수직선 언급 + PNG 없음 + 문제 이미지 설명 없음. 실제 필수 도형 누락 여부는 검토 필요
+41015801,,explanation_text_missing,review,원본 해설 텍스트 없음. 이미지 설명·PNG 유무와 별도 판단
+41015801,,diagram_context_missing_candidate,review,그림/그래프/수직선 언급 + PNG 없음 + 문제 이미지 설명 없음. 실제 필수 도형 누락 여부는 검토 필요
+41015810,,explanation_text_missing,review,원본 해설 텍스트 없음. 이미지 설명·PNG 유무와 별도 판단
+41015810,,diagram_context_missing_candidate,review,그림/그래프/수직선 언급 + PNG 없음 + 문제 이미지 설명 없음. 실제 필수 도형 누락 여부는 검토 필요
+41015935,,explanation_double_questionmark,review,?? 검출: 인코딩 또는 변환 손상 의심
+41015964,,explanation_double_questionmark,review,?? 검출: 인코딩 또는 변환 손상 의심
+41015976,,explanation_double_questionmark,review,?? 검출: 인코딩 또는 변환 손상 의심
+41015986,,explanation_double_questionmark,review,?? 검출: 인코딩 또는 변환 손상 의심
+41015987,,explanation_double_questionmark,review,?? 검출: 인코딩 또는 변환 손상 의심
+41015988,,explanation_double_questionmark,review,?? 검출: 인코딩 또는 변환 손상 의심
+41015989,,explanation_double_questionmark,review,?? 검출: 인코딩 또는 변환 손상 의심
+41015995,,explanation_double_questionmark,review,?? 검출: 인코딩 또는 변환 손상 의심
+41016044,,question_double_questionmark,review,?? 검출: 인코딩 또는 변환 손상 의심. 원인 확정·추정 복원하지 않음
+41016048,,question_double_questionmark,review,?? 검출: 인코딩 또는 변환 손상 의심. 원인 확정·추정 복원하지 않음
+41016165,,question_double_questionmark,review,?? 검출: 인코딩 또는 변환 손상 의심. 원인 확정·추정 복원하지 않음
+41020539,,explanation_text_missing,review,원본 해설 텍스트 없음. 이미지 설명·PNG 유무와 별도 판단
+41020540,,explanation_double_questionmark,review,?? 검출: 인코딩 또는 변환 손상 의심
+41020543,,explanation_text_missing,review,원본 해설 텍스트 없음. 이미지 설명·PNG 유무와 별도 판단
+41020553,,explanation_double_questionmark,review,?? 검출: 인코딩 또는 변환 손상 의심
+41020565,,explanation_text_missing,review,원본 해설 텍스트 없음. 이미지 설명·PNG 유무와 별도 판단
+41020600,,no_attempt_metadata,review,미관측 5문항은 분류 메타데이터를 임의로 보간하지 않음
+41020621,,explanation_text_missing,review,원본 해설 텍스트 없음. 이미지 설명·PNG 유무와 별도 판단
+41020633,,explanation_text_missing,review,원본 해설 텍스트 없음. 이미지 설명·PNG 유무와 별도 판단
+41020633,,question_double_questionmark,review,?? 검출: 인코딩 또는 변환 손상 의심. 원인 확정·추정 복원하지 않음
+41020642,,explanation_text_missing,review,원본 해설 텍스트 없음. 이미지 설명·PNG 유무와 별도 판단
+41020651,,explanation_text_missing,review,원본 해설 텍스트 없음. 이미지 설명·PNG 유무와 별도 판단
+41020653,,explanation_text_missing,review,원본 해설 텍스트 없음. 이미지 설명·PNG 유무와 별도 판단
+41020653,,question_double_questionmark,review,?? 검출: 인코딩 또는 변환 손상 의심. 원인 확정·추정 복원하지 않음
+41020660,,explanation_text_missing,review,원본 해설 텍스트 없음. 이미지 설명·PNG 유무와 별도 판단
+41020660,,question_double_questionmark,review,?? 검출: 인코딩 또는 변환 손상 의심. 원인 확정·추정 복원하지 않음
+41020684,,explanation_text_missing,review,원본 해설 텍스트 없음. 이미지 설명·PNG 유무와 별도 판단
+41020689,,explanation_text_missing,review,원본 해설 텍스트 없음. 이미지 설명·PNG 유무와 별도 판단
+41020691,,explanation_text_missing,review,원본 해설 텍스트 없음. 이미지 설명·PNG 유무와 별도 판단
+41020700,,explanation_text_missing,review,원본 해설 텍스트 없음. 이미지 설명·PNG 유무와 별도 판단
+41020701,,explanation_text_missing,review,원본 해설 텍스트 없음. 이미지 설명·PNG 유무와 별도 판단
+41020702,,explanation_text_missing,review,원본 해설 텍스트 없음. 이미지 설명·PNG 유무와 별도 판단
+41020703,,explanation_text_missing,review,원본 해설 텍스트 없음. 이미지 설명·PNG 유무와 별도 판단
+41020713,,explanation_text_missing,review,원본 해설 텍스트 없음. 이미지 설명·PNG 유무와 별도 판단
+41020715,,explanation_text_missing,review,원본 해설 텍스트 없음. 이미지 설명·PNG 유무와 별도 판단
+41020715,,no_attempt_metadata,review,미관측 5문항은 분류 메타데이터를 임의로 보간하지 않음
+41020716,,explanation_text_missing,review,원본 해설 텍스트 없음. 이미지 설명·PNG 유무와 별도 판단
+41020716,,question_double_questionmark,review,?? 검출: 인코딩 또는 변환 손상 의심. 원인 확정·추정 복원하지 않음
+41020717,,explanation_text_missing,review,원본 해설 텍스트 없음. 이미지 설명·PNG 유무와 별도 판단
+41020717,,question_double_questionmark,review,?? 검출: 인코딩 또는 변환 손상 의심. 원인 확정·추정 복원하지 않음
+41020727,,explanation_text_missing,review,원본 해설 텍스트 없음. 이미지 설명·PNG 유무와 별도 판단
+41022181,,explanation_text_missing,review,원본 해설 텍스트 없음. 이미지 설명·PNG 유무와 별도 판단
+41022182,,explanation_double_questionmark,review,?? 검출: 인코딩 또는 변환 손상 의심
+41022185,,explanation_text_missing,review,원본 해설 텍스트 없음. 이미지 설명·PNG 유무와 별도 판단
+41022185,,diagram_context_missing_candidate,review,그림/그래프/수직선 언급 + PNG 없음 + 문제 이미지 설명 없음. 실제 필수 도형 누락 여부는 검토 필요
+41022185,,content_manual_review,review,정답 ∠ ±B 손상 및 증명 그림 누락. 정답키 확정 불가.
+41022199,,explanation_double_questionmark,review,?? 검출: 인코딩 또는 변환 손상 의심
+41022201,,content_manual_review,review,각을 구하는 데 필요한 도형과 조건이 문항 본문에서 누락됨.
+41022221,,explanation_text_missing,review,원본 해설 텍스트 없음. 이미지 설명·PNG 유무와 별도 판단
+41022221,,diagram_context_missing_candidate,review,그림/그래프/수직선 언급 + PNG 없음 + 문제 이미지 설명 없음. 실제 필수 도형 누락 여부는 검토 필요
+41022239,,content_manual_review,review,도형 설명의 x 위치가 해설에서 구하는 각과 다를 가능성. 원본 도형 확인 필요.
+41022241,,explanation_text_missing,review,원본 해설 텍스트 없음. 이미지 설명·PNG 유무와 별도 판단
+41022241,,diagram_context_missing_candidate,review,그림/그래프/수직선 언급 + PNG 없음 + 문제 이미지 설명 없음. 실제 필수 도형 누락 여부는 검토 필요
+41022249,,explanation_text_missing,review,원본 해설 텍스트 없음. 이미지 설명·PNG 유무와 별도 판단
+41022268,,explanation_double_questionmark,review,?? 검출: 인코딩 또는 변환 손상 의심
+41022282,,explanation_double_questionmark,review,?? 검출: 인코딩 또는 변환 손상 의심
+41022296,,explanation_double_questionmark,review,?? 검출: 인코딩 또는 변환 손상 의심
+41022300,,explanation_double_questionmark,review,?? 검출: 인코딩 또는 변환 손상 의심
+41022307,,explanation_double_questionmark,review,?? 검출: 인코딩 또는 변환 손상 의심
+41022314,,explanation_double_questionmark,review,?? 검출: 인코딩 또는 변환 손상 의심
+41022317,,explanation_double_questionmark,review,?? 검출: 인코딩 또는 변환 손상 의심
+41022358,,explanation_double_questionmark,review,?? 검출: 인코딩 또는 변환 손상 의심
+41022501,,explanation_double_questionmark,review,?? 검출: 인코딩 또는 변환 손상 의심
+41022504,,content_manual_review,review,사각형의 도형과 조건이 문항 본문에서 누락됨.
+41022512,,explanation_text_missing,review,원본 해설 텍스트 없음. 이미지 설명·PNG 유무와 별도 판단
+41022512,,diagram_context_missing_candidate,review,그림/그래프/수직선 언급 + PNG 없음 + 문제 이미지 설명 없음. 실제 필수 도형 누락 여부는 검토 필요
+41022513,,explanation_text_missing,review,원본 해설 텍스트 없음. 이미지 설명·PNG 유무와 별도 판단
+41022528,,explanation_text_missing,review,원본 해설 텍스트 없음. 이미지 설명·PNG 유무와 별도 판단
+41022528,,diagram_context_missing_candidate,review,그림/그래프/수직선 언급 + PNG 없음 + 문제 이미지 설명 없음. 실제 필수 도형 누락 여부는 검토 필요
+41022528,,question_double_questionmark,review,?? 검출: 인코딩 또는 변환 손상 의심. 원인 확정·추정 복원하지 않음
+41022553,,explanation_double_questionmark,review,?? 검출: 인코딩 또는 변환 손상 의심
+41022556,,explanation_double_questionmark,review,?? 검출: 인코딩 또는 변환 손상 의심
+41022562,,explanation_double_questionmark,review,?? 검출: 인코딩 또는 변환 손상 의심
+41022564,,explanation_double_questionmark,review,?? 검출: 인코딩 또는 변환 손상 의심
+41022570,,explanation_double_questionmark,review,?? 검출: 인코딩 또는 변환 손상 의심
+41022575,,explanation_double_questionmark,review,?? 검출: 인코딩 또는 변환 손상 의심
+41022576,,explanation_double_questionmark,review,?? 검출: 인코딩 또는 변환 손상 의심
+41022582,,explanation_double_questionmark,review,?? 검출: 인코딩 또는 변환 손상 의심
+41022598,,content_manual_review,review,도형 설명은 Q를 선분 OP 위로 설명하나 해설은 외각 115° 사용. 도형 재확인 필요.
+41056079,,question_double_questionmark,review,?? 검출: 인코딩 또는 변환 손상 의심. 원인 확정·추정 복원하지 않음
+41056079,,explanation_double_questionmark,review,?? 검출: 인코딩 또는 변환 손상 의심
+41056153,,explanation_double_questionmark,review,?? 검출: 인코딩 또는 변환 손상 의심
+41056154,,explanation_double_questionmark,review,?? 검출: 인코딩 또는 변환 손상 의심
+41056166,,question_double_questionmark,review,?? 검출: 인코딩 또는 변환 손상 의심. 원인 확정·추정 복원하지 않음
+41056166,,explanation_double_questionmark,review,?? 검출: 인코딩 또는 변환 손상 의심
+41056190,,question_double_questionmark,review,?? 검출: 인코딩 또는 변환 손상 의심. 원인 확정·추정 복원하지 않음
+41056195,,explanation_double_questionmark,review,?? 검출: 인코딩 또는 변환 손상 의심
+41112274,,no_attempt_metadata,review,미관측 5문항은 분류 메타데이터를 임의로 보간하지 않음
+41112276,,no_attempt_metadata,review,미관측 5문항은 분류 메타데이터를 임의로 보간하지 않음
+41112303,,no_attempt_metadata,review,미관측 5문항은 분류 메타데이터를 임의로 보간하지 않음
+40771606,attempt_000773,source_regrade_disagreement,review,원본 N / 정규화 후 correct. 원본과 재채점 모두 보존
+40770238,attempt_001716,source_correctness_missing,info,원본 채점 누락. 현재 파일의 8행은 모두 응답도 비어 있음
+40770960,attempt_001717,source_correctness_missing,info,원본 채점 누락. 현재 파일의 8행은 모두 응답도 비어 있음
+40771590,attempt_001718,source_correctness_missing,info,원본 채점 누락. 현재 파일의 8행은 모두 응답도 비어 있음
+40771540,attempt_001810,source_regrade_disagreement,review,원본 N / 정규화 후 correct. 원본과 재채점 모두 보존
+40771540,attempt_001884,source_regrade_disagreement,review,원본 N / 정규화 후 correct. 원본과 재채점 모두 보존
+40770375,attempt_001999,source_regrade_disagreement,review,원본 N / 정규화 후 correct. 원본과 재채점 모두 보존
+40770375,attempt_002646,source_regrade_disagreement,review,원본 N / 정규화 후 correct. 원본과 재채점 모두 보존
+40771540,attempt_002722,source_regrade_disagreement,review,원본 N / 정규화 후 correct. 원본과 재채점 모두 보존
+40770375,attempt_004028,source_regrade_disagreement,review,원본 N / 정규화 후 correct. 원본과 재채점 모두 보존
+40770434,attempt_005174,source_regrade_disagreement,review,원본 N / 정규화 후 correct. 원본과 재채점 모두 보존
+40770375,attempt_006039,source_regrade_disagreement,review,원본 N / 정규화 후 correct. 원본과 재채점 모두 보존
+40770434,attempt_007032,source_regrade_disagreement,review,원본 N / 정규화 후 correct. 원본과 재채점 모두 보존
+40770434,attempt_007542,source_regrade_disagreement,review,원본 N / 정규화 후 correct. 원본과 재채점 모두 보존
+40769408,attempt_007958,source_regrade_disagreement,review,원본 N / 정규화 후 correct. 원본과 재채점 모두 보존
+40769408,attempt_007959,source_regrade_disagreement,review,원본 N / 정규화 후 correct. 원본과 재채점 모두 보존
+40771540,attempt_007974,source_regrade_disagreement,review,원본 N / 정규화 후 correct. 원본과 재채점 모두 보존
+40771540,attempt_008291,source_regrade_disagreement,review,원본 N / 정규화 후 correct. 원본과 재채점 모두 보존
+40770434,attempt_008435,source_regrade_disagreement,review,원본 N / 정규화 후 correct. 원본과 재채점 모두 보존
+40770708,attempt_008437,source_regrade_disagreement,review,원본 N / 정규화 후 correct. 원본과 재채점 모두 보존
+40771540,attempt_008528,source_regrade_disagreement,review,원본 N / 정규화 후 correct. 원본과 재채점 모두 보존
+40770375,attempt_008799,source_regrade_disagreement,review,원본 N / 정규화 후 correct. 원본과 재채점 모두 보존
+40770375,attempt_008938,source_regrade_disagreement,review,원본 N / 정규화 후 correct. 원본과 재채점 모두 보존
+40770375,attempt_010104,source_regrade_disagreement,review,원본 N / 정규화 후 correct. 원본과 재채점 모두 보존
+40771540,attempt_010143,source_regrade_disagreement,review,원본 N / 정규화 후 correct. 원본과 재채점 모두 보존
+40770375,attempt_010164,source_regrade_disagreement,review,원본 N / 정규화 후 correct. 원본과 재채점 모두 보존
+40771540,attempt_010577,source_regrade_disagreement,review,원본 N / 정규화 후 correct. 원본과 재채점 모두 보존
+40771540,attempt_011332,source_regrade_disagreement,review,원본 N / 정규화 후 correct. 원본과 재채점 모두 보존
+40770434,attempt_012265,source_regrade_disagreement,review,원본 N / 정규화 후 correct. 원본과 재채점 모두 보존
+40771540,attempt_012389,source_regrade_disagreement,review,원본 N / 정규화 후 correct. 원본과 재채점 모두 보존
+40770434,attempt_012677,source_regrade_disagreement,review,원본 N / 정규화 후 correct. 원본과 재채점 모두 보존
+40771540,attempt_012793,source_regrade_disagreement,review,원본 N / 정규화 후 correct. 원본과 재채점 모두 보존
+40771540,attempt_012795,source_regrade_disagreement,review,원본 N / 정규화 후 correct. 원본과 재채점 모두 보존
+40771540,attempt_012796,source_regrade_disagreement,review,원본 N / 정규화 후 correct. 원본과 재채점 모두 보존
+40770434,attempt_013186,source_regrade_disagreement,review,원본 N / 정규화 후 correct. 원본과 재채점 모두 보존
+40857762,attempt_015075,source_correctness_missing,info,원본 채점 누락. 현재 파일의 8행은 모두 응답도 비어 있음
+40860137,attempt_015104,source_correctness_missing,info,원본 채점 누락. 현재 파일의 8행은 모두 응답도 비어 있음
+40906837,attempt_015134,source_correctness_missing,info,원본 채점 누락. 현재 파일의 8행은 모두 응답도 비어 있음
+40906868,attempt_015138,source_correctness_missing,info,원본 채점 누락. 현재 파일의 8행은 모두 응답도 비어 있음
+40973088,attempt_015145,source_correctness_missing,info,원본 채점 누락. 현재 파일의 8행은 모두 응답도 비어 있음
+40860216,attempt_017055,source_regrade_disagreement,review,원본 Y / 정규화 후 partial. 원본과 재채점 모두 보존
+41112282,attempt_018701,source_regrade_disagreement,review,원본 Y / 정규화 후 partial. 원본과 재채점 모두 보존
+41112282,attempt_019973,source_regrade_disagreement,review,원본 Y / 정규화 후 partial. 원본과 재채점 모두 보존
+41020553,attempt_020846,source_regrade_disagreement,review,원본 Y / 정규화 후 partial. 원본과 재채점 모두 보존
+41022224,attempt_022687,source_regrade_disagreement,review,원본 N / 정규화 후 correct. 원본과 재채점 모두 보존
+41022224,attempt_023165,source_regrade_disagreement,review,원본 N / 정규화 후 correct. 원본과 재채점 모두 보존
