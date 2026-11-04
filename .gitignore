@@ -1,0 +1,4 @@
+.env
+__pycache__/
+*.pyc
+오답 분석/분석 결과/dry_run_*.txt
