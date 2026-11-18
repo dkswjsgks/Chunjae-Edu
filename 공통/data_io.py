@@ -1,7 +1,7 @@
 """
 데이터 읽기, 실행 설정(CONFIG) 파싱, 실험 기록을 한곳에 모은다.
 
-  load_*()                 전처리 결과·사전·추가 데이터 읽기 (ID 열은 문자열)
+  load_*()                 분석 데이터·사전·문항 입력자료·추가 데이터 읽기 (ID 열은 문자열)
   parse_config(CONFIG)     run.py의 CONFIG 값을 명령줄 --키 값으로 덮어쓴다
   new_run(stage_dir, method, config)   결과/<실행ID>/ 폴더와 config.json을 만든다
   finish_run(run, metrics, note)       실험 기록/실험_목록.csv에 한 줄 남긴다
@@ -27,26 +27,35 @@ def _csv(path):
 
 
 def knowledge_ids(names=None):
-    kd = load_dictionary("지식_사전")
+    kd = load_dictionary("지식")
     names = names or settings.FIRST_EXPERIMENT_KNOWLEDGE
     return set(kd.loc[kd.knowledge_name.isin(names), "knowledge_id"])
 
 
-def load_attempts(knowledge=None):
-    df = _csv(paths.PREPROCESSED / "학습자 풀이 이력_전처리.csv")
-    return df[df.knowledge_id.isin(knowledge_ids(knowledge))] if knowledge is not False else df
+def load_topics():
+    """분석 데이터/토픽.csv: 토픽 하나당 한 행(토픽·지식·단원 이름)"""
+    return _csv(paths.ANALYSIS_DATA / "토픽.csv")
 
 
 def load_items(knowledge=None):
-    df = _csv(paths.PREPROCESSED / "문항 정보_전처리.csv")
+    """분석 데이터/문항.csv: 문항 하나당 한 행(분류 이름, 내용, 정답키, 품질 표시). knowledge=False면 전체"""
+    df = _csv(paths.ANALYSIS_DATA / "문항.csv")
+    return df[df.knowledge_id.isin(knowledge_ids(knowledge))] if knowledge is not False else df
+
+
+def load_attempts(knowledge=None):
+    """분석 데이터/풀이.csv: 학생 응답 하나당 한 행. knowledge=False면 전체"""
+    df = _csv(paths.ANALYSIS_DATA / "풀이.csv")
     return df[df.knowledge_id.isin(knowledge_ids(knowledge))] if knowledge is not False else df
 
 
 def load_blank_responses():
-    return _csv(paths.PREPROCESSED / "빈칸별 응답_재채점.csv")
+    """분석 데이터/빈칸응답.csv: 응답의 입력칸(또는 선택 토큰) 하나당 한 행"""
+    return _csv(paths.ANALYSIS_DATA / "빈칸응답.csv")
 
 
 def load_item_packets(item_ids=None):
+    """전처리 결과의 문항별 LLM 입력자료(jsonl). 정답·전 기간 오답 분포 포함, 학생 공개·과거시점 예측 입력 금지"""
     out = {}
     with open(paths.PREPROCESSED / "문항별 인공지능 분석_입력자료.jsonl", encoding="utf-8-sig") as f:
         for line in f:

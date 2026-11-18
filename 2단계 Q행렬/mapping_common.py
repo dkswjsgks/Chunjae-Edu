@@ -3,7 +3,7 @@
 
   행 단위: 문항-선지 (정답 선지 포함, 단답형은 자주 나온 오답값)
   후보 KC: 2_문항KC배정 결과에서 그 문항에 배정된 KC
-  후보 오개념: 후보 KC에 연결된 오개념(KC_오개념_연결표의 use_in_mapping=1)
+  후보 오개념: 후보 KC에 연결된 오개념(사전/오개념.csv에서 kc_id가 후보 KC이고 use_in_mapping=1인 행)
 
 구현된 함수: reproduces, check_kc_subset, to_wide
 채울 함수: load_inputs, kc_candidates, misconception_candidates, item_vars
@@ -29,7 +29,7 @@ def load_inputs(cfg):
     돌려줄 dict:
       options   선지표.csv에서 excluded=0인 행 (option_row_id, item_id, option_value, is_correct, n_chosen, wrong_share)
       item_kc   2_문항KC배정의 문항_KC.csv (cfg["kc_size"] 버전)
-      kc, mc, links   사전 KC_사전, 오개념_사전, KC_오개념_연결표
+      kc, mc          사전/KC.csv, 사전/오개념.csv (오개념의 지식은 mc.kc_id → kc.knowledge_id로 찾는다)
       packets   data_io.load_item_packets()
     cfg["option_table_run"], cfg["item_kc_run"]이 None이면 data_io.latest_run으로 가장 최근 결과를 쓴다
     """

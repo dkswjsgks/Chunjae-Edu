@@ -5,7 +5,9 @@
   python "1단계 사전/4_오개념_정비/run.py" --provider openai
   python "1단계 사전/4_오개념_정비/run.py" --provider anthropic --prompt-stage 3
 
-입력: 사전/오개념_사전.csv, 사전/KC_오개념_연결표.csv, (task=신규) 2단계 버전별 해당없음.csv
+입력: 사전/오개념.csv(KC–오개념 연결 하나당 한 행), (task=신규) 2단계 버전별 해당없음.csv
+반영: 사전/오개념.csv. 오개념 단위 값(name_ko, category_id, definition, typical_trace, student_explanation 등)은
+      그 misconception_id의 모든 행에 같은 값으로 넣는다. 처음 채우는 항목은 열을 새로 만든다
 출력: 결과/<실행ID>/ <task>_검토시트.csv(사람 검토용). --apply <검토한 시트> 로 사전에 반영
 프롬프트: 같은 폴더 prompt.md
 """
@@ -95,8 +97,8 @@ def to_sheet_rows(task, target, parsed):
 
 def apply_sheet(task, sheet_path):
     """
-    승인된 행만 사전에 반영(reviewed_by, review_note 기록)
-    task=신규: 승인된 제안을 MC-N<번호>로 오개념_사전.csv와 KC_오개념_연결표.csv(link_source=오답귀납)에 추가
+    승인된 행만 사전/오개념.csv에 반영(reviewed_by, review_note 열 기록)
+    task=신규: 승인된 제안을 MC-N<번호>로 사전/오개념.csv에 KC마다 한 행씩 추가(source=오답귀납)
     """
     raise NotImplementedError("apply_sheet: 아직 구현하지 않았다")
 

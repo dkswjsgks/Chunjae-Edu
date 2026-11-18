@@ -51,10 +51,10 @@ def main():
     cfg = data_io.parse_config(PARAMS)
     run = data_io.new_run(HERE, "4-1-진단", cfg)
     attempts = data_io.load_attempts()
-    q = data_io._csv(paths.STAGE3 / "결과" / "확정" / "Q.csv")
+    q = data_io._csv(paths.CONFIRMED_Q / "Q.csv")
     scores = misconception_scores(q, attempts, cfg)
     scores.to_csv(run.dir / "학생_오개념.csv", index=False, encoding="utf-8-sig")
-    kc_mastery(paths.STAGE3 / "결과" / "확정", attempts, cfg).to_csv(run.dir / "학생_KC.csv", index=False, encoding="utf-8-sig")
+    kc_mastery(paths.CONFIRMED_Q, attempts, cfg).to_csv(run.dir / "학생_KC.csv", index=False, encoding="utf-8-sig")
     repeat_tags(scores, attempts, cfg).to_csv(run.dir / "반복오개념_태그.csv", index=False, encoding="utf-8-sig")
     data_io.finish_run(run)
 

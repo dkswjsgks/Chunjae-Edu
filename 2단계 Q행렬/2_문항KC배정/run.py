@@ -5,7 +5,7 @@
   python "2단계 Q행렬/2_문항KC배정/run.py" --provider openai
   python "2단계 Q행렬/2_문항KC배정/run.py" --provider anthropic --prompt-stage 3
 
-입력: 문항 입력자료(jsonl), 사전/KC_사전.csv, 사전/지식_KC_연결표.csv
+입력: 분석 데이터/문항.csv, 문항 입력자료(jsonl), 사전/KC.csv
 출력: 결과/<실행ID>/ 문항_KC.csv (item_id, kc_id, kc_group, steps)
 프롬프트: 같은 폴더 prompt.md
 """
@@ -53,9 +53,10 @@ def item_vars(packet):
     raise NotImplementedError("item_vars: 아직 구현하지 않았다")
 
 
-def kc_candidates(packet, kc_dict, links, cfg):
+def kc_candidates(packet, kc_dict, cfg):
     """
-    문항 지식의 KC 중 kc_roles에 해당하는 것. kc_size=group이면 묶은 KC 이름으로
+    사전/KC.csv에서 knowledge_id가 문항 지식과 같고 role이 kc_roles에 있는 KC.
+    kc_size=group이면 kc_group, kc_group_name으로 묶어 묶음 하나를 후보 하나로
     """
     raise NotImplementedError("kc_candidates: 아직 구현하지 않았다")
 
@@ -72,11 +73,11 @@ def main():
     run = data_io.new_run(HERE, f"2-2-KC배정-{cfg['provider']}-{cfg['kc_size']}", cfg)
     items = data_io.load_items(cfg["knowledge"])
     packets = data_io.load_item_packets(set(items.item_id))
-    kc, links = data_io.load_dictionary("KC_사전"), data_io.load_dictionary("지식_KC_연결표")
+    kc = data_io.load_dictionary("KC")
     rows = []
     for item_id, packet in packets.items():
         p = llm_client.load_prompt(HERE / cfg["prompt_file"], cfg["prompt_stage"],
-                                   **item_vars(packet), kc_candidates=kc_candidates(packet, kc, links, cfg))
+                                   **item_vars(packet), kc_candidates=kc_candidates(packet, kc, cfg))
         out = llm_client.chat(cfg["provider"], p["system"], p["user"], schema=OUTPUT_SCHEMA,
                               model=cfg["model"], cache_dir=run.cache)
         rows += to_rows(item_id, out["parsed"])

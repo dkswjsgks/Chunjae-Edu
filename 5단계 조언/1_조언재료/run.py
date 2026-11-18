@@ -5,7 +5,7 @@
   python "5단계 조언/1_조언재료/run.py" --provider openai
   python "5단계 조언/1_조언재료/run.py" --provider anthropic --prompt-stage 3
 
-입력: 사전/오개념_사전.csv (학생용 설명문·계산 경로), (B) 교재 원문 폴더
+입력: 사전/오개념.csv (학생용 설명문·계산 경로, 1단계 4 --task 설명문이 채운다), (B) 교재 원문 폴더
 출력: 결과/<실행ID>/ 사전작성_조언.csv(검수용) / (B) 교재_색인/
 프롬프트: 같은 폴더 prompt.md
 """
@@ -64,7 +64,9 @@ def main():
     if cfg["method"] == "B":
         build_textbook_index(cfg["textbook_dir"], run.dir / "교재_색인")
         return
-    mc = data_io.load_dictionary("오개념_사전")
+    mc = data_io.load_dictionary("오개념").drop_duplicates("misconception_id")
+    if "student_explanation" not in mc:
+        raise RuntimeError("사전/오개념.csv에 학생용 설명문이 없다. 1단계 4_오개념_정비 --task 설명문을 먼저 반영한다")
     rows = []
     for row in mc[mc.student_explanation != ""].itertuples():
         p = llm_client.load_prompt(HERE / cfg["prompt_file"], cfg["prompt_stage"], **misconception_vars(row))
