@@ -132,7 +132,7 @@ def chat(provider, system, user, schema=None, model=None, cache_dir=None, sample
 
 def _chat_openai(model, system, user, schema):
     from openai import OpenAI
-    client = OpenAI(base_url=os.environ.get("OPENAI_BASE_URL") or None)
+    client = OpenAI(base_url=os.environ.get("OPENAI_BASE_URL") or "https://api.openai.com/v1")  # .env에 빈 값이면 SDK가 빈 주소를 읽어 연결 실패하므로 기본 주소를 명시
     kw = dict(
         model=model,
         input=[{"role": "system", "content": system}, {"role": "user", "content": user}],
@@ -200,7 +200,7 @@ def _score_logprob(system, user, model, cache_dir):
     if hit is not None:
         return hit
     from openai import OpenAI
-    client = OpenAI(base_url=os.environ.get("OPENAI_BASE_URL") or None)
+    client = OpenAI(base_url=os.environ.get("OPENAI_BASE_URL") or "https://api.openai.com/v1")  # .env에 빈 값이면 SDK가 빈 주소를 읽어 연결 실패하므로 기본 주소를 명시
     r = client.chat.completions.create(
         model=model, messages=[{"role": "system", "content": system}, {"role": "user", "content": user}],
         max_completion_tokens=1, logprobs=True, top_logprobs=10)

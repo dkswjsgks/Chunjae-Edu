@@ -62,6 +62,7 @@ Chunjae-Edu/
 │   ├── 3_버전1_이진/                      LLM · 선지마다 KC·오개념을 "고름" → 0/1
 │   ├── 3_버전2_확률/                      LLM · 추론 후 후보 KC·오개념마다 점수(GPT 토큰 확률 / Claude 확률 목록)
 │   ├── 3_버전3_세값/                      LLM · 선지마다 후보 KC·오개념을 1 / 0 / 무관으로 판정
+│   ├── 4_build_overview.py               코드 · 문항별 단원·KC·연결 오개념 통합 CSV(결과/<실행ID>/문항_KC_오개념.csv)
 │   └── mapping_common.py                 코드 · 세 버전 공통(입력, 후보, KC 부분집합 검사, 계산 경로 재계산, Q.csv 변환)
 ├── 3단계 검증/
 │   ├── 1_make_splits.py · 2_fit_kc_models.py · 3_evaluate_q.py · 4_human_review.py   코드
