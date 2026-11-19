@@ -1,0 +1,19 @@
+{
+  "provider": "openai",
+  "model": null,
+  "prompt_file": "prompt.md",
+  "prompt_stage": 2,
+  "task": "설명문",
+  "apply": null,
+  "none_runs": [],
+  "knowledge": [
+    "유리수의 덧셈과 뺄셈의 혼합계산",
+    "정수와 유리수의 대소 관계"
+  ],
+  "subtopics": [
+    "Mixed operation Negative Numbers",
+    "Absolute Values and Opposites"
+  ],
+  "limit": 0,
+  "workers": 8
+}

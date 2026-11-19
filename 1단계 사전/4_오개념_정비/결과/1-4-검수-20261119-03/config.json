@@ -1,0 +1,37 @@
+{
+  "provider": "openai",
+  "model": null,
+  "prompt_file": "prompt.md",
+  "prompt_stage": 2,
+  "task": "검수",
+  "apply": null,
+  "none_runs": [],
+  "knowledge": [
+    "유리수의 덧셈과 뺄셈의 혼합계산",
+    "정수와 유리수의 대소 관계"
+  ],
+  "subtopics": [
+    "Adding and Subtracting Negative Numbers",
+    "Adding and Subtracting Fractions",
+    "Ordering Negative Numbers",
+    "Ordering Decimals",
+    "Absolute Values and Opposites",
+    "Converting between Fractions and Decimals",
+    "Mixed operation Negative Numbers",
+    "Ordering Fractions",
+    "Place Value",
+    "Multiplying Fractions",
+    "Equivalent Fractions",
+    "Simplifying Fractions",
+    "Dividing Fractions",
+    "Multiplying and Dividing Negative Numbers",
+    "Mixed operation Fractions",
+    "Converting Mixed Number and Improper Fractions",
+    "Mental Addition and Subtraction",
+    "Adding and Subtracting with Decimals",
+    "Inequalities on Number Lines",
+    "BIDMAS"
+  ],
+  "limit": 0,
+  "workers": 12
+}
