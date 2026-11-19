@@ -46,7 +46,7 @@ Chunjae-Edu/
 ├── 공통/            settings.py · paths.py · data_io.py(읽기·CONFIG 파싱·실험 기록) · llm_client.py(GPT·Claude 호출, 점수)
 ├── 데이터 전처리/   완료. 원본 전처리 산출물(검토·추적 기록 포함). 고치지 않는다
 ├── 분석 데이터/     토픽·문항·풀이·빈칸응답 CSV(0단계가 조인·정리), README(열 정의)
-├── 사전/            지식.csv · KC.csv · 오개념.csv · 오류유형.csv, 원본 엑셀, README(열 정의)
+├── 사전/            지식.csv · KC.csv · 오개념.csv · 오개념_상위분류.csv, 원본 엑셀, README(열 정의)
 ├── 외부 자료/Eedi/  construct-map.csv, misconception-map.csv
 ├── 실험 기록/       실험_목록.csv
 ├── 0단계 데이터/
