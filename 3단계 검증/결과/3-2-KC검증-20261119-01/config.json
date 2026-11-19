@@ -1,0 +1,22 @@
+{
+  "item_kc_runs": [
+    "2-2-KC배정-anthropic-original-20261119-02",
+    "2-2-KC배정-anthropic-original-20261119-04",
+    "2-2-KC배정-openai-original-20261119-05",
+    "2-2-KC배정-openai-original-20261119-06",
+    "2-2-KC배정-openai-original-20261119-07"
+  ],
+  "baselines": [
+    "knowledge",
+    "topic"
+  ],
+  "reference": "기준선_topic",
+  "ablation_run": "",
+  "n_shuffle": 10,
+  "n_boot": 300,
+  "reg_c": 1.0,
+  "knowledge": [
+    "유리수의 덧셈과 뺄셈의 혼합계산",
+    "정수와 유리수의 대소 관계"
+  ]
+}
