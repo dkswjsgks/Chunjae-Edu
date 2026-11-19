@@ -1580,30 +1580,21 @@ KC-N001,MC-E15632,양수에서 음수를 뺄 때 두 ‘−’ 기호 중 하나
 KC-N001,MC-E27298,자료의 최솟값은 음수가 될 수 없다고 생각함,Believes negative numbers cannot be the minimum value in a data set,상,1,,,eedi,draft,CAT-1,,Claude(사용자 위임 검토),"번역·분류 전수 확인, 문제 없음"
 KC-N001,MC-E15037,범위를 정렬하지 않고 마지막 값에서 첫 값을 뺀 것으로 생각함,"Thinks the range is just the first value subtracted from the last value, without ordering",상,1,,,eedi,draft,,,,
 KC-N001,MC-E22266,자료의 범위를 최댓값에서 최솟값을 빼지 않고 더해서 구한다고 생각함,Believes the range of a data set is calculated by adding the largest and smallest values instead of subtracting the smallest from the largest,상,1,R-condition,,eedi,draft,,,,
-KC-N001,MC-E25151,표에서 가장 큰 값이 항상 답이라고 가정함,Assumes largest value in a table is always the answer,상,1,,,eedi,draft,,,,
 KC-N001,MC-E23634,수의 대소를 비교할 때 음의 부호를 무시해도 된다고 생각함,Thinks negative signs can be ignored in comparisons,상,1,C-abs-order,,eedi,draft,CAT-1,,Claude(사용자 위임 검토),"번역·분류 전수 확인, 문제 없음"
-KC-N001,MC-E24730,음수를 빼는 것과 그 음수의 절댓값을 빼는 것이 같다고 생각함,Believes that subtracting a negative number is equivalent to subtracting its absolute value,중,1,C-neg-sub,,eedi,draft,CAT-1,,팀 검토(채팅 승인),전체 검토 후 문제 없음으로 승인
 KC-N001,MC-E15100,영상과 영하의 온도 차이를 이해하지 못함,Does not understand the difference between negative and positive temperatures,중,1,R-partial,,eedi,draft,CAT-1,,Claude(사용자 위임 검토),"번역·분류 전수 확인, 문제 없음"
 KC-N002,MC-E21240,0을 양수로 분류함,Thinks 0 is a positive number,상,1,,,eedi,draft,CAT-1,,Claude(사용자 위임 검토),"번역·분류 전수 확인, 문제 없음"
 KC-N002,MC-E15068,,Does not realise an integer can be written as a fraction with a denominator of 1,상,1,,,eedi,draft,,,,
 KC-N002,MC-E15774,,Assumes a negative number is not rational,상,1,,,eedi,draft,,,,
-KC-N002,MC-E26702,,"Believes that any number expressed as a fraction cannot be a rational number, misunderstanding the definition of rational numbers",상,1,,,eedi,draft,,,,
-KC-N002,MC-E26703,,"Believes that any number without a fractional or decimal component is irrational, misunderstanding the definition of irrational numbers",상,1,,,eedi,draft,,,,
 KC-N002,MC-E14069,분수를 약분하는 것을 잊음,Forgot to simplify the fraction,중,1,P-reduce,,eedi,draft,CAT-2,P-reduce,Claude(사용자 위임 검토),"번역·분류 전수 확인, 문제 없음"
-KC-N002,MC-E26215,수를 셀 때 0을 포함하지 않는다고 생각함,Believes zero is not included when counting,중,1,,,eedi,draft,CAT-1,,Claude(사용자 위임 검토),"번역·분류 전수 확인, 문제 없음"
 KC-N002,MC-E17454,분자가 0인 분수는 있을 수 없다고 생각함,Believes a fraction cannot have a numerator of 0,중,1,,,eedi,draft,CAT-1,,Claude(사용자 위임 검토),"번역·분류 전수 확인, 문제 없음"
 KC-N005,MC-E18287,등호를 ‘좌변을 계산하라’는 뜻으로 해석함,"Believes an equals sign means ""work out the left hand side""",상,1,P-sign,,eedi,draft,CAT-1,,Claude(사용자 위임 검토),"번역·분류 전수 확인, 문제 없음"
 KC-N005,MC-E22562,합과 차를 혼동하여 합을 덧셈이 아니라 뺄셈으로 구한다고 생각함,Believes that the total is found by subtraction rather than addition (confusing total and difference),상,1,R-partial,,eedi,draft,CAT-1,,Claude(사용자 위임 검토),"번역·분류 전수 확인, 문제 없음"
 KC-N005,MC-E24838,,Thinks an answer only needs to satisfy one of the properties given in a multi-constraint problem,상,1,,,eedi,draft,,,,
 KC-N005,MC-E27332,절댓값과 수 자체의 값을 혼동함,Confuses absolute value with actual value,상,1,C-abs-order,,eedi,draft,CAT-1,,Claude(사용자 위임 검토),"번역·분류 전수 확인, 문제 없음"
 KC-N005,MC-E15557,같은 숫자에 부호만 다르게 붙인 양수와 음수를 같은 수로 생각함,Believes negative and positive values of the same digit are equal,상,1,,,eedi,draft,CAT-1,,Claude(사용자 위임 검토),"번역·분류 전수 확인, 문제 없음"
-KC-N005,MC-E22128,정답이 여러 개일 수 있는 문항에서도 정답은 하나뿐이라고 생각함,"Assumes that a question has only one correct answer, even when multiple answers are possible",상,1,,,eedi,draft,CAT-4,,Claude(사용자 위임 검토),"번역·분류 전수 확인, 문제 없음"
-KC-N005,MC-E20286,덧셈식에서 빈칸에 들어갈 수를 구할 때 덧셈을 사용한다고 생각함,Believes they use addition to solve a missing number addition problem,상,1,,,eedi,draft,CAT-2,,Claude(사용자 위임 검토),"번역·분류 전수 확인, 문제 없음"
-KC-N005,MC-E19620,표의 행과 열을 혼동함,Confuses rows and columns in a table,중,1,,,eedi,draft,,,,
 KC-N006,MC-E15786,‘~보다 크다’라는 표현이 나오면 뺄셈을 해야 한다고 생각함,Believes greater than means you subtract,상,1,R-condition,,eedi,draft,CAT-4,,Claude(사용자 위임 검토),"번역·분류 전수 확인, 문제 없음"
 KC-N006,MC-E13926,문장제에서 뺄셈을 해야 할 때 덧셈을 함,Adds rather than subtracts when answering worded problems,상,1,,,eedi,draft,CAT-4,,Claude(사용자 위임 검토),"번역·분류 전수 확인, 문제 없음"
 KC-N006,MC-E24999,음수를 더하는 것과 그 음수의 절댓값을 더하는 것이 같다고 생각함,Believes that adding a negative number is equivalent to adding its absolute value,상,1,C-abs-order,,eedi,draft,CAT-1,,Claude(사용자 위임 검토),"번역·분류 전수 확인, 문제 없음"
-KC-N006,MC-E24730,음수를 빼는 것과 그 음수의 절댓값을 빼는 것이 같다고 생각함,Believes that subtracting a negative number is equivalent to subtracting its absolute value,상,1,C-neg-sub,,eedi,draft,CAT-1,,팀 검토(채팅 승인),전체 검토 후 문제 없음으로 승인
 KC-N006,MC-E16669,음수를 더하는 것이 그 음수의 절댓값을 빼는 것과 같음을 알지 못함,Does not recognise that adding a negative number is the same as subtracting the absolute value of the negative number,상,1,C-neg-sub,,eedi,draft,CAT-1,C-neg-sub,Claude(사용자 위임 검토),"번역·분류 전수 확인, 문제 없음"
 KC-N006,MC-E21704,음수를 빼면 그 음수의 절댓값을 더하는 것과 같지 않고 값이 작아진다고 생각함,Believes that subtracting a negative number results in a smaller value rather than adding the positive equivalent,상,1,C-neg-sub,,eedi,draft,CAT-1,,팀 검토(채팅 승인),전체 검토 후 문제 없음으로 승인
 KC-N006,MC-E14931,빼는 수와 빼어지는 수의 순서를 바꾸어 계산함,Performs subtraction in wrong order,중,1,,,eedi,draft,CAT-2,,Claude(사용자 위임 검토),"번역·분류 전수 확인, 문제 없음"
@@ -1612,9 +1603,7 @@ KC-N008,MC-E17395,,Does not know the associative law,상,1,,,eedi,draft,,,,
 KC-N008,MC-E21551,계산 순서를 무시하고 항상 왼쪽부터 차례대로 계산해야 한다고 생각함,"Believes that mathematical operations should be performed strictly from left to right, ignoring the conventional order of operations",상,1,,,eedi,draft,CAT-2,,팀 검토(채팅 승인),전체 검토 후 문제 없음으로 승인
 KC-N008,MC-E26424,음수가 포함된 덧셈에서 더하는 순서를 바꾸면 합이 달라진다고 생각함,Believes that the order of addition affects the result when negative numbers are involved,중,1,,,eedi,draft,CAT-1,,Claude(사용자 위임 검토),"번역·분류 전수 확인, 문제 없음"
 KC-N008,MC-E14764,덧셈의 교환법칙이 성립함을 알지 못함,Does not realise addition is commutative,중,1,P-sign,,eedi,draft,CAT-1,,Claude(사용자 위임 검토),"번역·분류 전수 확인, 문제 없음"
-KC-N008,MC-E14766,"+, − 부호가 바로 앞 항에 붙는다고 생각함",Thinks positive or negative sign affects the term before it,중,1,P-sign,,eedi,draft,CAT-1,,팀 검토(채팅 승인),전체 검토 후 문제 없음으로 승인
 KC-N008,MC-E13722,뺄셈에 교환법칙이 성립한다고 생각함,Believes subtraction is commutative,중,1,P-sign,,eedi,draft,CAT-1,,팀 검토(채팅 승인),전체 검토 후 문제 없음으로 승인
-KC-N008,MC-E29004,중간 계산 결과를 구하면 답을 얻기 위해 더 계산할 필요가 없다고 생각함,"Thinks that once an intermediate value is calculated, no further operations are needed to reach the final solution",중,1,R-partial,,eedi,draft,CAT-2,,Claude(사용자 위임 검토),"번역·분류 전수 확인, 문제 없음"
 KC-N009,MC-E23634,수의 대소를 비교할 때 음의 부호를 무시해도 된다고 생각함,Thinks negative signs can be ignored in comparisons,상,1,C-abs-order,,eedi,draft,CAT-1,,Claude(사용자 위임 검토),"번역·분류 전수 확인, 문제 없음"
 KC-N009,MC-E24989,음수와 양수를 크기순으로 나열할 때 절댓값의 크기를 기준으로 나열함,"When arranging negative and positive numbers in size order, believes they order them by their absolute values",상,1,C-abs-order,,eedi,draft,CAT-1,,Claude(사용자 위임 검토),"번역·분류 전수 확인, 문제 없음"
 KC-N009,MC-E24991,"0과 음수의 대소를 비교할 때, 음수의 절댓값이 0의 절댓값보다 크므로 음수가 0보다 크다고 생각함","When comparing zero with a negative number, believes that the negative number is greater due to its absolute value",상,1,C-abs-order,,eedi,draft,CAT-1,,Claude(사용자 위임 검토),"번역·분류 전수 확인, 문제 없음"
@@ -1628,19 +1617,14 @@ KC-N010,MC-E23035,어떤 수의 반대수가 그 수의 역수라고 생각함,B
 KC-N010,MC-E19056,,Believes fractions which are reciprocals are equal,상,1,,,eedi,draft,,,,
 KC-N010,MC-E27160,양수와 음수의 계산에서 식 맨 앞의 음의 부호를 무시해도 된다고 생각함,Believes leading negative signs can be ignored when calculating with directed numbers,중,1,C-abs-order,,eedi,draft,CAT-2,,Claude(사용자 위임 검토),"번역·분류 전수 확인, 문제 없음"
 KC-N010,MC-E15068,,Does not realise an integer can be written as a fraction with a denominator of 1,중,1,,,eedi,draft,,,,
-KC-N010,MC-E25092,,Thinks you convert any decimal to a fraction by using the digits after the decimal point as the denominator of a unit fraction,중,1,,,eedi,draft,,,,
-KC-N010,MC-E22458,,Believes the first fraction in a division problem should be inverted instead of the second,중,1,,,eedi,draft,,,,
 KC-N010,MC-E27508,분수로 나눌 때 나누는 분수의 역수를 곱하지 않고 그 분모로만 나눈다고 생각함,"Believes that dividing by a fraction involves dividing by the denominator only, ignoring the reciprocal operation",중,1,,,eedi,draft,CAT-2,,팀 검토(채팅 승인),전체 검토 후 문제 없음으로 승인
 KC-N011,MC-E15740,,Believes unit fractions with a difference of 1 in the denominator have no other fractions between them,상,1,,,eedi,draft,,,,
-KC-N011,MC-E18800,,Believes only marked values/positions on a number line can be used,중,1,,,eedi,draft,,,,
-KC-N011,MC-E22128,정답이 여러 개일 수 있는 문항에서도 정답은 하나뿐이라고 생각함,"Assumes that a question has only one correct answer, even when multiple answers are possible",중,1,,,eedi,draft,CAT-4,,Claude(사용자 위임 검토),"번역·분류 전수 확인, 문제 없음"
 KC-N003,MC-E14304,,Does not find a common denominator when adding/subtracting fractions,상,1,,,eedi,draft,,,,
 KC-N003,MC-E26989,통분할 때 분자는 그대로라고 생각함,Believes numerators stay the same when finding common denominators,상,1,K-frac-common,,eedi,draft,CAT-2,,Claude(사용자 위임 검토),"번역·분류 전수 확인, 문제 없음"
 KC-N003,MC-E13807,분모가 다른 분수의 덧셈에서 통분은 바르게 하지만 마지막 단계에서 분모끼리 더함,"When adding fractions with unlike denominators, completes the first step correctly, but then adds the denominators in the final step",상,1,K-frac-common,,eedi,draft,CAT-2,,Claude(사용자 위임 검토),"번역·분류 전수 확인, 문제 없음"
 KC-N003,MC-E19220,분모가 같은 분수의 뺄셈에서 분자끼리 빼면 공통분모가 없어진다고 생각함,"When subtracting fractions with the same denominator, believes they subtract the numerators and the denominators cancel out",상,1,,,eedi,draft,CAT-2,,Claude(사용자 위임 검토),"번역·분류 전수 확인, 문제 없음"
 KC-N003,MC-E19131,음수에 양수를 더할 때 두 수의 절댓값을 더하기만 하면 된다고 생각함,Thinks that when adding a positive to a negative you simply add the absolute values,상,1,C-abs-order,,eedi,draft,CAT-2,,Claude(사용자 위임 검토),"번역·분류 전수 확인, 문제 없음"
 KC-N003,MC-E24622,두 음수를 더할 때 두 수의 절댓값을 서로 빼고 그 결과에 음의 부호를 붙이면 된다고 생각함,When adding negatives believes that they can just subtract their absolute values and add a negative sign to the answer,상,1,C-neg-sub,,eedi,draft,CAT-2,,Claude(사용자 위임 검토),"번역·분류 전수 확인, 문제 없음"
-KC-N003,MC-E24730,음수를 빼는 것과 그 음수의 절댓값을 빼는 것이 같다고 생각함,Believes that subtracting a negative number is equivalent to subtracting its absolute value,상,1,C-neg-sub,,eedi,draft,CAT-1,,팀 검토(채팅 승인),전체 검토 후 문제 없음으로 승인
 KC-N003,MC-E16654,분수에서 정수를 뺄 때 분자에서 그 정수를 빼면 된다고 생각함,Believes that to subtract an integer from a fraction they can subtract the integer from the numerator,상,1,,,eedi,draft,CAT-2,,Claude(사용자 위임 검토),"번역·분류 전수 확인, 문제 없음"
 KC-N012,MC-E15068,,Does not realise an integer can be written as a fraction with a denominator of 1,상,1,,,eedi,draft,,,,
 KC-N012,MC-E14777,,Thinks converting an integer to a fraction means both the numerator and denominator are equal,상,1,,,eedi,draft,,,,
@@ -1649,7 +1633,6 @@ KC-N012,MC-E24681,,"Assumes any equivalent fraction is a fully correct answer, i
 KC-N012,MC-E15522,분수를 약분할 때 분자와 분모를 서로 다른 수로 나누어도 된다고 생각함,Believes when simplifying a fraction you can divide the numerator and denominator by different values,상,1,P-reduce,,eedi,draft,CAT-2,,Claude(사용자 위임 검토),"번역·분류 전수 확인, 문제 없음"
 KC-N012,MC-E27023,,Believes only one part of the fraction needs to be divided when simplifying,상,1,,,eedi,draft,,,,
 KC-N012,MC-E18238,,Believes division cannot be used to form equivalent fractions,상,1,,,eedi,draft,,,,
-KC-N012,MC-E14537,,Does not fully simplify fraction,상,1,,,eedi,draft,,,,
 KC-N013,MC-E26805,수직선에서 왼쪽에 있는 수일수록 더 크다고 생각함,Believes the direction left on a number line represents greater values,상,1,,,eedi,draft,CAT-1,,Claude(사용자 위임 검토),"번역·분류 전수 확인, 문제 없음"
 KC-N013,MC-E24551,수직선에 음수를 나타낼 때 절댓값이 더 큰 음수가 더 오른쪽에 있다고 생각함,"When placing a negative number on a number line, assumes numbers with a greater absolute value are placed to the right",상,1,C-abs-order,,eedi,draft,CAT-1,,Claude(사용자 위임 검토),"번역·분류 전수 확인, 문제 없음"
 KC-N013,MC-E22356,두 음수 중 절댓값이 더 큰 수가 더 크다고 생각함,"Thinks that the greater the magnitude (absolute value) of a negative number, the greater its value",상,1,C-abs-order,,eedi,draft,CAT-1,,Claude(사용자 위임 검토),"번역·분류 전수 확인, 문제 없음"
@@ -1679,6 +1662,5 @@ KC-N016,MC-E21704,음수를 빼면 그 음수의 절댓값을 더하는 것과 �
 KC-N016,MC-E24730,음수를 빼는 것과 그 음수의 절댓값을 빼는 것이 같다고 생각함,Believes that subtracting a negative number is equivalent to subtracting its absolute value,상,1,C-neg-sub,,eedi,draft,CAT-1,,팀 검토(채팅 승인),전체 검토 후 문제 없음으로 승인
 KC-N016,MC-E22551,양수와 음수의 차를 두 수의 합으로 구할 수 있다고 생각함,Believes they can find the difference between a positive and negative number by adding them,상,1,R-partial,,eedi,draft,CAT-1,,팀 검토(채팅 승인),전체 검토 후 문제 없음으로 승인
 KC-N016,MC-E23046,어떤 양수든 부호가 반대인 수는 그 양수 자신이라고 생각함(절댓값과 혼동),Thinks the opposite of any positive number is itself (confusing with absolute value),상,1,C-abs-order,,eedi,draft,CAT-1,,팀 검토(채팅 승인),전체 검토 후 문제 없음으로 승인
-KC-N016,MC-E26986,분수의 덧셈이나 뺄셈을 할 때 나눗셈에서처럼 두 번째 분수를 그 역수로 바꾸어야 한다고 생각함,Believes when adding or subtracting fractions you take the reciprocal of the second fraction as if you were dividing,상,1,,,eedi,draft,CAT-2,,Claude(사용자 위임 검토),"번역·분류 전수 확인, 문제 없음"
 KC-N016,MC-E16669,음수를 더하는 것이 그 음수의 절댓값을 빼는 것과 같음을 알지 못함,Does not recognise that adding a negative number is the same as subtracting the absolute value of the negative number,중,1,C-neg-sub,,eedi,draft,CAT-1,C-neg-sub,Claude(사용자 위임 검토),"번역·분류 전수 확인, 문제 없음"
 KC-N016,MC-E14766,"+, − 부호가 바로 앞 항에 붙는다고 생각함",Thinks positive or negative sign affects the term before it,중,1,P-sign,,eedi,draft,CAT-1,,팀 검토(채팅 승인),전체 검토 후 문제 없음으로 승인
