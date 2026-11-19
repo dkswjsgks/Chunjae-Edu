@@ -13,6 +13,7 @@
 프롬프트: 같은 폴더 prompt.md
 
 후보 KC: 문항의 지식 단위에 속한 KC 중 role이 kc_roles인 것(토픽이 아니라 지식 단위 전체).
+같은 설정으로 다시 실행하면 _cache의 응답을 쓰므로 끊긴 실행을 이어서 할 수 있다.
 정답 키가 확정되지 않은 문항(blocked_source_defect, unresolved)은 Q행렬에서 빼므로 여기서도 뺀다.
 """
 
@@ -42,6 +43,10 @@ CONFIG = {
     "limit": 0,                          # 0이면 전체. 시험 실행용으로 앞에서부터 n문항만
     "workers": 4,                        # 동시 호출 수
 }
+
+# 호출 결과 캐시. 실행이 중간에 끊겨도 같은 명령을 다시 실행하면 끝낸 문항은 다시 부르지 않는다.
+# 처음부터 다시 받으려면 이 폴더(_cache, git에 올리지 않음)를 지운다.
+CACHE_DIR = HERE / "_cache"
 
 EXCLUDED_KEY_STATUS = {"blocked_source_defect", "unresolved"}
 
@@ -139,7 +144,7 @@ def main():
         p = llm_client.load_prompt(HERE / cfg["prompt_file"], cfg["prompt_stage"],
                                    **item_vars(packet), kc_candidates=kc_candidates(packet, kc, cfg))
         out = llm_client.chat(cfg["provider"], p["system"], p["user"], schema=OUTPUT_SCHEMA,
-                              model=cfg["model"], cache_dir=run.cache)
+                              model=cfg["model"], cache_dir=CACHE_DIR)
         return to_rows(item_id, out["parsed"], set(cands.cand_id))
 
     ids = [i for i in items.item_id if i in packets]
