@@ -1,0 +1,6 @@
+{
+  "provider": "openai",
+  "model": null,
+  "run_dir": "2단계 Q행렬/2_문항KC배정/결과/2-2-KC배정-openai-original-20261119-06",
+  "workers": 12
+}

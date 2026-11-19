@@ -37,6 +37,7 @@ CONFIG = {
     "model": None,                       # None이면 .env의 OPENAI_MODEL / ANTHROPIC_MODEL
     "prompt_file": "prompt.md",
     "prompt_stage": 2,                   # 1 목록만 / 2 +원칙 / 3 +원칙+예시
+    "kc_scope": "experiment",            # knowledge: 문항과 같은 지식 단위의 KC만 / experiment: 첫 실험 지식 전체의 KC(다른 단위 KC도 후보)
     "kc_size": "original",               # original(원래 KC) | group(묶은 KC)
     "kc_roles": ["핵심", "보조"],         # 후보로 줄 KC 구분
     "knowledge": settings.FIRST_EXPERIMENT_KNOWLEDGE,
@@ -93,7 +94,8 @@ def item_vars(packet):
 def candidate_table(packet, kc_dict, cfg):
     """후보 KC 표: DataFrame(cand_id, cand_name, role). kc_size=group이면 묶음 하나가 후보 하나"""
     kid = packet["taxonomy_ids"]["knowledge_id"]
-    sub = kc_dict[(kc_dict.knowledge_id == kid) & kc_dict.role.isin(cfg["kc_roles"])]
+    ids = set(data_io.knowledge_ids(cfg["knowledge"])) if cfg.get("kc_scope") == "experiment" else {kid}
+    sub = kc_dict[kc_dict.knowledge_id.isin(ids) & kc_dict.role.isin(cfg["kc_roles"])]
     if cfg["kc_size"] == "group":
         rank = {r: i for i, r in enumerate(cfg["kc_roles"])}
         sub = sub.assign(_r=sub.role.map(rank)).sort_values("_r").drop_duplicates("kc_group")
