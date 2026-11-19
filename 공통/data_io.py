@@ -99,7 +99,8 @@ def new_run(stage_dir, method, config):
     today = dt.date.today().strftime("%Y%m%d")
     base = stage_dir / "결과"
     base.mkdir(parents=True, exist_ok=True)
-    n = 1 + sum(1 for d in base.glob(f"{method}-{today}-*"))
+    nums = [int(d.name.rsplit("-", 1)[1]) for d in base.glob(f"{method}-{today}-*") if d.name.rsplit("-", 1)[1].isdigit()]
+    n = 1 + max(nums, default=0)  # 중간 번호 폴더를 지워도 겹치지 않게 최댓값 + 1
     run_id = f"{method}-{today}-{n:02d}"
     d = base / run_id
     d.mkdir()

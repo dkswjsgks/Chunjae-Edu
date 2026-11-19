@@ -619,3 +619,50 @@ KC-E3842,MC-E25149,실생활 맥락에서 음수인 고도를 해수면 높이�
 KC-E3842,MC-E25150,해수면의 높이를 0이 아닌 1로 생각함,Believes 'sea level' is measured as 1 rather than 0,하,0,,100.0,eedi,active
 KC-E3842,MC-E25151,표에서 가장 큰 값이 항상 답이라고 가정함,Assumes largest value in a table is always the answer,하,0,,100.0,eedi,active
 KC-E3842,MC-E23024,모든 눈금의 가운데가 0이라고 생각함,Believes the midpoint of any scale is 0,중,1,,50.0,eedi,active
+KC-E297,MC-E13932,오름차순과 내림차순을 혼동함,Confuses ascending and descending,중,1,R-condition,3.509,eedi,active
+KC-E297,MC-E14600,소수점 뒤에 값이 있는 수가 값이 없는 수보다 크다는 것을 이해하지 못함,Does not understand that having values after the decimal point makes a number larger than a number with the same units but no decimal places,중,1,,100.0,eedi,active
+KC-E297,MC-E14940,자릿값과 관계없이 자릿수가 많을수록 큰 수라고 생각함,"Thinks the more digits a number has the greater it is, regardless of place value",중,1,,29.032,eedi,active
+KC-E297,MC-E15450,"분수와 소수가 ""분자.분모""로 대응한다고 믿음(예: 3/4=3.4)",Believes a fraction and decimal are related such that numerator/denominator = numerator.denominator,중,1,,1.493,eedi,active
+KC-E297,MC-E18077,소수의 대소를 비교할 때 소수점이 중요하지 않다고 믿음,"When ordering decimals, believes the decimal point is not relevant",중,1,,100.0,eedi,active
+KC-E297,MC-E18200,수를 비교할 때 끝자리부터 비교함,Believes that when ordering numbers they should start comparing from the digits at the end of the number,중,1,,7.5,eedi,active
+KC-E297,MC-E18234,,Thinks the first number in an unordered list must be the smallest,하,0,,22.222,eedi,active
+KC-E297,MC-E18235,,Believes the last number of an unordered list must be the largest,하,0,,44.444,eedi,active
+KC-E297,MC-E18633,소수점 아래 자릿수가 적은 수가 많은 수보다 반드시 작다고 생각함,Thinks a number with fewer digits after the decimal point must be smaller than a number with more digits after the decimal point,중,1,K-decimal,27.273,eedi,active
+KC-E297,MC-E18634,소수점 아래 자릿수가 많을수록 큰 수라고 봄,Thinks a number with more digits after the decimal point must be larger than a number with fewer digits after the decimal point,중,1,K-decimal,28.205,eedi,active
+KC-E297,MC-E18664,분자와 관계없이 분모가 클수록 더 큰 분수라고 믿음,"Believes larger denominator means larger fraction, regardless of numerator",중,1,,4.545,eedi,active
+KC-E297,MC-E18699,,"Believes they can order proportions (e.g. fractions, decimals and percentages)  based on their digits without converting to the same form",하,0,,7.692,eedi,active
+KC-E297,MC-E18802,소수 자릿수가 많을수록 더 작은 수라고 믿음,Believes more decimal places means a smaller number,중,1,,22.222,eedi,active
+KC-E297,MC-E19116,,Believes that measurements with different units can be compared without conversion,하,0,,3.226,eedi,active
+KC-E297,MC-E19320,,Believes an amount in pounds is always greater than an amount in pence,하,0,,33.333,eedi,active
+KC-E297,MC-E19373,정수가 소수점 앞 숫자가 같은 소수보다 크다고 믿음(예: 5가 5.9보다 큼),"Believes an integer is greater than a decimal with the same digits before the decimal point, e.g. 3 > 3.42",중,1,,75.0,eedi,active
+KC-E297,MC-E19768,가장 작은 수와 가장 큰 수를 혼동함,Confuses smallest and greatest,중,1,,50.0,eedi,active
+KC-E297,MC-E19787,,"When asked for the fraction of the shape that is shaded, believes the numerator is the number of unshaded parts and the denominator is the number of shaded parts",하,0,,33.333,eedi,active
+KC-E297,MC-E22128,답이 여러 개일 수 있는데 하나만 있다고 가정함,"Assumes that a question has only one correct answer, even when multiple answers are possible",중,1,,0.571,eedi,active
+KC-E297,MC-E22131,정수의 크기가 끝자리 숫자로 결정된다고 생각함,Believes the value of an integer is determined by the digits at the end,중,1,,9.091,eedi,active
+KC-E297,MC-E22586,첫 번째 유효숫자가 큰 수가 자릿값과 무관하게 더 크다고 믿음,"Believes a number with a larger first significant digit is bigger, regardless of place value",중,1,,100.0,eedi,active
+KC-E297,MC-E23897,소수점 아래 숫자가 클수록 자릿값과 무관하게 더 큰 수라고 믿음,"Believes higher digits after the decimal point make a number larger, regardless of place value",중,1,,100.0,eedi,active
+KC-E297,MC-E24741,,"In a real life question, thinks it is appropriate to guess an answer which is reasonable in context rather than calculating",하,0,,33.333,eedi,active
+KC-E297,MC-E24988,오름차순으로 나열하라고 할 때 큰 수부터 작은 수 순으로 나열함,"When asked to arrange numbers in ascending order, believes they order them from largest to smallest",중,1,R-condition,33.333,eedi,active
+KC-E297,MC-E26120,소수점이 수의 크기에 영향을 주지 않는다고 보고 숫자만으로 비교함,"Believes that the presence of a decimal point does not affect the value of a number, treating it as a whole number",중,1,,3.846,eedi,active
+KC-E297,MC-E26442,분수를 소수로 바꿀 때 분자와 분모를 소수점으로 이어 붙임,Believes that converting a fraction to a decimal involves placing the numerator and denominator sequentially after the decimal point,중,1,,2.222,eedi,active
+KC-E415,MC-E14068,분수를 정렬할 때 가장 작은 것과 가장 큰 것을 혼동함,Mixes up smallest and largest when ordering fractions,중,1,,36.364,eedi,active
+KC-E415,MC-E14090,분모가 큰 분수가 크기도 더 크다고 믿음,Believes that fractions with larger denominators are greater in size,중,1,,17.333,eedi,active
+KC-E415,MC-E14358,,When calculating the range does not reorder the data to find the largest number minus the smallest number,하,0,,33.333,eedi,active
+KC-E415,MC-E14943,,Thinks that a larger shaded area represents a larger fraction,하,0,,100.0,eedi,active
+KC-E415,MC-E14944,,Thinks a greater number of shaded parts represents a greater fraction,하,0,,33.333,eedi,active
+KC-E415,MC-E15132,분수를 비교할 때 통분하지 않음,Does not find a common denominator when comparing fractions,중,1,,5.882,eedi,active
+KC-E415,MC-E15438,분모가 가장 큰 분수가 분자와 무관하게 가장 작다고 믿음,Believes that a fraction with the largest denominator will be smallest regardless of the numerator,중,1,,37.5,eedi,active
+KC-E415,MC-E15482,주어진 수의 목록이 크기순으로 나열되어 있다고 가정함,Assumes that a list is given in size order,중,1,,14.286,eedi,active
+KC-E415,MC-E15582,분수를 정렬할 때 분모만 비교하면 된다고 믿음,Thinks you can just compare denominators when ordering fractions,중,1,,52.941,eedi,active
+KC-E415,MC-E15740,,Believes unit fractions with a difference of 1 in the denominator have no other fractions between them,하,0,,100.0,eedi,active
+KC-E415,MC-E16005,,Believes a smaller number of shaded parts represents a smaller fraction,하,0,,100.0,eedi,active
+KC-E415,MC-E16006,,"Gives the smallest whole when asked for the smallest fraction shaded, presented visually",하,0,,100.0,eedi,active
+KC-E415,MC-E17372,분수를 정렬할 때 분자만 비교하면 된다고 믿음,Thinks you can just compare numerators when ordering fractions,중,1,,20.0,eedi,active
+KC-E415,MC-E18235,,Believes the last number of an unordered list must be the largest,하,0,,11.111,eedi,active
+KC-E415,MC-E18664,분자와 관계없이 분모가 클수록 더 큰 분수라고 믿음,"Believes larger denominator means larger fraction, regardless of numerator",중,1,,13.636,eedi,active
+KC-E415,MC-E18665,분자와 관계없이 분모가 클수록 더 작은 분수라고 믿음,"Believes larger denominator means smaller fraction, regardless of numerator",중,1,,16.667,eedi,active
+KC-E415,MC-E19024,,Copies the order from the question without understanding,하,0,,9.091,eedi,active
+KC-E415,MC-E19123,'가장 작은'과 '가장 큰'을 혼동함,Mixes up the words 'smallest' and 'greatest',중,1,R-condition,4.762,eedi,active
+KC-E415,MC-E19419,분자와 관계없이 분모가 작을수록 더 작은 분수라고 믿음,"Believes smaller denominator means smaller fraction, regardless of denominator",중,1,,100.0,eedi,active
+KC-E415,MC-E19420,분모와 관계없이 분자가 작을수록 더 작은 분수라고 믿음,"Believes smaller numerator means smaller fraction, regardless of denominator",중,1,,100.0,eedi,active
+KC-E415,MC-E22647,분자와 관계없이 분모가 작을수록 더 큰 분수라고 믿음,"Believes smaller denominator means larger fraction, regardless of numerator",중,1,,100.0,eedi,active
