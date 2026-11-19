@@ -1,0 +1,13 @@
+{
+  "provider": "openai",
+  "model": null,
+  "assign_run": "2-2-KC배정-openai-original-20261119-07",
+  "max_links": 8,
+  "n_examples": 3,
+  "apply": null,
+  "workers": 4,
+  "knowledge": [
+    "유리수의 덧셈과 뺄셈의 혼합계산",
+    "정수와 유리수의 대소 관계"
+  ]
+}

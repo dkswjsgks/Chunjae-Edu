@@ -54,7 +54,7 @@ python "1단계 사전/3_build_kc_groups.py"              # KC.csv의 kc_group �
 | use_in_mapping | 2단계 오개념 후보로 쓰면 1. 관련도 상·중은 1, 하는 0 |
 | our_code_draft | 기존 12개 오류 코드 대응 초안 |
 | eedi_pct | Eedi PercentageMisconceptionExistsInThisConstruct |
-| source, status | eedi / 오답귀납, active |
+| source, status | eedi / 오답귀납, active / draft(우리가 자체 KC에 붙인 연결 초안. 사람 검수 전) |
 
 `eedi_pct`는 오개념마다 합이 100인 값이다. "이 오개념이 어느 KC에서 나타나는지의 분포"이지 "이 KC에서 이 오개념이 흔한 정도"가 아니다. 선지별 오개념 순위에 쓰지 않는다.
 
@@ -69,3 +69,6 @@ python "1단계 사전/3_build_kc_groups.py"              # KC.csv의 kc_group �
 
 ## 오개념 검수 현황 (2026-11-19)
 첫 실험 지식 2개의 매핑 후보 오개념(use_in_mapping=1) 350개 중 349개를 검수해 `name_ko`(번역), `category_id`(상위 분류), `our_code`(기존 오류 코드와 같은 경우만), `reviewed_by`, `review_note`를 채웠다. 처음 53개는 팀 검토, 나머지 296개는 사용자가 위임해 Claude가 전수 확인했다(`reviewed_by` 열로 구분). 보류 1개: MC-E19483(지면층을 1층으로 생각함 — 한국에서는 성립하지 않아 팀 확인 필요). 제안된 관련도 변경은 KC마다 달라 사전에 반영하지 않았다. 설명문 열은 아직 사전에 반영하지 않았다(설명문 검토 시트는 `1단계 사전/4_오개념_정비/결과/1-4-설명문-20261119-01/`, 승인 전).
+
+## 자체 KC(KC-N*)의 오개념 연결 (2026-11-19)
+Eedi 연결표는 Eedi KC에만 있어서 우리가 만든 KC 14개에는 오개념이 없었다. `1단계 사전/6_자체KC_오개념_연결.py`로 사전에 이미 있는 Eedi 오개념 중 각 KC와 맞는 것을 LLM이 골라 106개 연결(상 80, 중 26)을 `오개념.csv`에 행으로 추가했다. 이 행들은 `status=draft`, `eedi_pct`는 비어 있고(Eedi 값이 아님), 사람 검수 전이다. 오개념 자체는 기존 888개 그대로이며 새로 만든 오개념은 없다. 일부(N005, N011 등)는 연결이 억지스러울 수 있어 검토가 필요하다.
