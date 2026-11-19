@@ -1118,3 +1118,358 @@ KC-E3124,MC-E18681,,Believes that to subtract an integer from a fraction they ca
 KC-E3124,MC-E18683,,Believes that to subtract an integer from a fraction they can subtract the integer from the numerator and the denominator,하,0,,100.0,eedi,active
 KC-E3124,MC-E19220,분모가 같은 분수의 뺄셈에서 분자끼리 빼고 분모는 없어진다고 생각함,"When subtracting fractions with the same denominator, believes they subtract the numerators and the denominators cancel out",중,1,,36.364,eedi,active
 KC-E3124,MC-E19223,,"When subtracting fractions, believes they subtract the numerator of the subtrahend from both the numerator and the denominator of the minuend",하,0,,50.0,eedi,active
+KC-E87,MC-E14223,음수끼리 더하면 양수가 된다고 생각함,Believes adding two negatives gives a positive answer,중,1,C-neg-cancel,7.895,eedi,active
+KC-E87,MC-E14764,덧셈에 교환법칙이 성립함을 모름,Does not realise addition is commutative,중,1,P-sign,14.815,eedi,active
+KC-E87,MC-E14999,,Thinks multiplication and addition are the same,하,0,,28.571,eedi,active
+KC-E87,MC-E17395,,Does not know the associative law,하,0,,33.333,eedi,active
+KC-E87,MC-E18287,등호를 '왼쪽을 계산하라'는 뜻으로 봄,"Believes an equals sign means ""work out the left hand side""",중,1,P-sign,2.778,eedi,active
+KC-E87,MC-E19003,,Does not recognise that repeated addition is equivalent to multiplication,하,0,,12.5,eedi,active
+KC-E87,MC-E19076,,"Believes ""n groups of x"" is when n is added to x",하,0,,100.0,eedi,active
+KC-E87,MC-E26424,음수가 포함된 덧셈에서는 더하는 순서에 따라 결과가 달라진다고 생각함,Believes that the order of addition affects the result when negative numbers are involved,중,1,,33.333,eedi,active
+KC-E87,MC-E26937,,Believes that multiplication cannot be distributed over addition,하,0,,10.0,eedi,active
+KC-E29,MC-E13709,,Mixes up smallest and greatest when ordering positive integers,하,0,,81.25,eedi,active
+KC-E29,MC-E13817,,Confuses least and most,하,0,,3.774,eedi,active
+KC-E29,MC-E13909,,The student does not understand the place value of 3-digit numbers,하,0,,13.333,eedi,active
+KC-E29,MC-E13932,오름차순과 내림차순을 혼동함,Confuses ascending and descending,중,1,R-condition,10.526,eedi,active
+KC-E29,MC-E15077,,Does not equate the value of a number with the place value column it is in,하,0,,16.667,eedi,active
+KC-E29,MC-E17584,,Confuses decimal notation in money putting value in pounds but writing the unit for pence,하,0,,33.333,eedi,active
+KC-E29,MC-E17998,,Confuses the value of numbers with the same digits in a different order,하,0,,66.667,eedi,active
+KC-E29,MC-E18200,수를 비교할 때 끝자리부터 비교함,Believes that when ordering numbers they should start comparing from the digits at the end of the number,중,1,,30.0,eedi,active
+KC-E29,MC-E18290,문장제의 수들을 무조건 더해야 한다고 봄,"When given numbers in a worded question, believes the task must be to add them together",중,1,,1.053,eedi,active
+KC-E29,MC-E18319,세 자리 수를 비교할 때 일의 자리 숫자만 비교하면 된다고 생각함,"When comparing three digit numbers, thinks that only the units digit needs to be compared",중,1,,50.0,eedi,active
+KC-E29,MC-E18516,수를 나열할 때 가장 왼쪽 자리부터 비교하지 않음,When ordering numbers believes you do not start by comparing the digits furthest left,중,1,,33.333,eedi,active
+KC-E29,MC-E18672,,Confuses the order of two-digit numbers,하,0,,13.333,eedi,active
+KC-E29,MC-E18685,,Confuses the number of minutes in an hour,하,0,,8.333,eedi,active
+KC-E29,MC-E18880,,"Believes a number with a larger first digit is bigger, regardless of place value",하,0,,50.0,eedi,active
+KC-E29,MC-E18921,,"When comparing two digit numbers, thinks that only the units digit needs to be compared",하,0,,100.0,eedi,active
+KC-E29,MC-E18922,'더 많다'와 '더 적다'를 혼동함,Confuses the words 'more' and 'less',중,1,R-condition,10.714,eedi,active
+KC-E29,MC-E18945,,Confuses the direction of greater than and less than relationships (in words),하,0,,8.0,eedi,active
+KC-E29,MC-E18952,,Confuses place values in number representation,하,0,,15.385,eedi,active
+KC-E29,MC-E18963,,Confuses the value of different coins,하,0,,1.695,eedi,active
+KC-E29,MC-E19024,,Copies the order from the question without understanding,하,0,,9.091,eedi,active
+KC-E29,MC-E19116,,Believes that measurements with different units can be compared without conversion,하,0,,3.226,eedi,active
+KC-E29,MC-E19123,'가장 작은'과 '가장 큰'을 혼동함,Mixes up the words 'smallest' and 'greatest',중,1,R-condition,28.571,eedi,active
+KC-E29,MC-E19458,,Compares numbers from incorrect place value column,하,0,,100.0,eedi,active
+KC-E29,MC-E19489,,Thinks minutes are longer than hours,하,0,,66.667,eedi,active
+KC-E29,MC-E20098,,Believes numbers with the same digits are equal regardless of the position of the digits within each number,하,0,,20.0,eedi,active
+KC-E29,MC-E20099,수를 비교할 때 모든 자릿값을 고려하지 않고 일의 자리 숫자만 봄,"When comparing numbers, thinks you just have to look at the ones digit without considering all place value columns",중,1,,36.364,eedi,active
+KC-E29,MC-E20311,,Believes all numbers with the same number of digits are equal,하,0,,66.667,eedi,active
+KC-E29,MC-E21596,,Believes 'teen' numbers refer to their corresponding multiples of 10,하,0,,2.703,eedi,active
+KC-E29,MC-E22128,답이 여러 개일 수 있는데 하나만 있다고 가정함,"Assumes that a question has only one correct answer, even when multiple answers are possible",중,1,,0.286,eedi,active
+KC-E29,MC-E22131,정수의 크기가 끝자리 숫자로 결정된다고 생각함,Believes the value of an integer is determined by the digits at the end,중,1,,51.515,eedi,active
+KC-E29,MC-E26451,,Believes temperatures with higher numerical values are colder,하,0,,9.091,eedi,active
+KC-E30,MC-E13709,,Mixes up smallest and greatest when ordering positive integers,하,0,,6.25,eedi,active
+KC-E30,MC-E13817,,Confuses least and most,하,0,,3.774,eedi,active
+KC-E30,MC-E14367,,Hasn't lined up the place value columns when writing out the calculation,하,0,,6.667,eedi,active
+KC-E30,MC-E15482,주어진 수의 목록이 크기순으로 나열되어 있다고 가정함,Assumes that a list is given in size order,중,1,,42.857,eedi,active
+KC-E30,MC-E16026,,Mixes up shortest and longest when ordering times,하,0,,37.5,eedi,active
+KC-E30,MC-E18200,수를 비교할 때 끝자리부터 비교함,Believes that when ordering numbers they should start comparing from the digits at the end of the number,중,1,,5.0,eedi,active
+KC-E30,MC-E18234,,Thinks the first number in an unordered list must be the smallest,하,0,,5.556,eedi,active
+KC-E30,MC-E18235,,Believes the last number of an unordered list must be the largest,하,0,,11.111,eedi,active
+KC-E30,MC-E18685,,Confuses the number of minutes in an hour,하,0,,16.667,eedi,active
+KC-E30,MC-E18880,,"Believes a number with a larger first digit is bigger, regardless of place value",하,0,,12.5,eedi,active
+KC-E30,MC-E18922,'더 많다'와 '더 적다'를 혼동함,Confuses the words 'more' and 'less',중,1,R-condition,3.571,eedi,active
+KC-E30,MC-E18963,,Confuses the value of different coins,하,0,,16.949,eedi,active
+KC-E30,MC-E18967,,Misunderstands the value of coins and notes,하,0,,10.909,eedi,active
+KC-E30,MC-E19024,,Copies the order from the question without understanding,하,0,,27.273,eedi,active
+KC-E30,MC-E19061,,Thinks counting objects equals their total value,하,0,,11.111,eedi,active
+KC-E30,MC-E19115,,Believes 1kg equals less than 1000g,하,0,,20.0,eedi,active
+KC-E30,MC-E19116,,Believes that measurements with different units can be compared without conversion,하,0,,32.258,eedi,active
+KC-E30,MC-E19123,'가장 작은'과 '가장 큰'을 혼동함,Mixes up the words 'smallest' and 'greatest',중,1,R-condition,23.81,eedi,active
+KC-E30,MC-E19212,,Confuses lightest and heaviest when comparing mass,하,0,,16.667,eedi,active
+KC-E30,MC-E19241,,Believes there are fewer than 1000 ml in a litre,하,0,,100.0,eedi,active
+KC-E30,MC-E19492,,"Believes a measurement given in a smaller unit is always smaller, regardless of the numbers involved (e.g. 300 seconds < 1 minute)",하,0,,100.0,eedi,active
+KC-E30,MC-E22131,정수의 크기가 끝자리 숫자로 결정된다고 생각함,Believes the value of an integer is determined by the digits at the end,중,1,,6.061,eedi,active
+KC-E30,MC-E26451,,Believes temperatures with higher numerical values are colder,하,0,,9.091,eedi,active
+KC-E31,MC-E13754,,"When multiplying involving a multiple of 10, just multiplies the digits and ignores the zeros",하,0,,7.692,eedi,active
+KC-E31,MC-E13844,,Rounds up instead of down,하,0,,1.0,eedi,active
+KC-E31,MC-E13909,,The student does not understand the place value of 3-digit numbers,하,0,,33.333,eedi,active
+KC-E31,MC-E13929,,Does not understand inequality notation,하,0,,66.667,eedi,active
+KC-E31,MC-E15003,더해야 할 것을 곱함,Multiplies rather than adds,중,1,,5.0,eedi,active
+KC-E31,MC-E15198,부등호를 등호와 혼동함,Confuses inequality symbols with equality,중,1,R-condition,11.111,eedi,active
+KC-E31,MC-E15482,주어진 수의 목록이 크기순으로 나열되어 있다고 가정함,Assumes that a list is given in size order,중,1,,28.571,eedi,active
+KC-E31,MC-E15852,부등호의 방향을 반대로 읽음,"When using inequality notation thinks that the greater than symbol means less than, and vice versa",중,1,R-condition,8.511,eedi,active
+KC-E31,MC-E17998,,Confuses the value of numbers with the same digits in a different order,하,0,,33.333,eedi,active
+KC-E31,MC-E18516,수를 나열할 때 가장 왼쪽 자리부터 비교하지 않음,When ordering numbers believes you do not start by comparing the digits furthest left,중,1,,40.0,eedi,active
+KC-E31,MC-E18813,,Confuses the number of items with the total value,하,0,,5.714,eedi,active
+KC-E31,MC-E18880,,"Believes a number with a larger first digit is bigger, regardless of place value",하,0,,12.5,eedi,active
+KC-E31,MC-E18922,'더 많다'와 '더 적다'를 혼동함,Confuses the words 'more' and 'less',중,1,R-condition,3.571,eedi,active
+KC-E31,MC-E18945,,Confuses the direction of greater than and less than relationships (in words),하,0,,4.0,eedi,active
+KC-E31,MC-E18967,,Misunderstands the value of coins and notes,하,0,,1.818,eedi,active
+KC-E31,MC-E19012,,Believes subtracting a smaller number (compared to a larger number) always makes the original number smaller,하,0,,100.0,eedi,active
+KC-E31,MC-E19244,,Does not know the value of the letters in Roman Numerals,하,0,,10.0,eedi,active
+KC-E31,MC-E19320,,Believes an amount in pounds is always greater than an amount in pence,하,0,,66.667,eedi,active
+KC-E31,MC-E19321,,Believes an amount in pounds is always less than an amount in pence,하,0,,100.0,eedi,active
+KC-E31,MC-E20099,수를 비교할 때 모든 자릿값을 고려하지 않고 일의 자리 숫자만 봄,"When comparing numbers, thinks you just have to look at the ones digit without considering all place value columns",중,1,,36.364,eedi,active
+KC-E31,MC-E20311,,Believes all numbers with the same number of digits are equal,하,0,,33.333,eedi,active
+KC-E31,MC-E21596,,Believes 'teen' numbers refer to their corresponding multiples of 10,하,0,,2.703,eedi,active
+KC-E31,MC-E22129,부등호 >와 <를 혼동함,Confuses greater than and less than symbols,중,1,R-condition,15.044,eedi,active
+KC-E31,MC-E22131,정수의 크기가 끝자리 숫자로 결정된다고 생각함,Believes the value of an integer is determined by the digits at the end,중,1,,9.091,eedi,active
+KC-E31,MC-E22659,,"When multiplying a multiple of 10, believes they can multiply by only the non-zero digits without then multiplying by 10",하,0,,7.692,eedi,active
+KC-E31,MC-E25953,,Believes that the perimeter of a rectangle is found by multiplying length by width,하,0,,13.333,eedi,active
+KC-E31,MC-E29121,,Believes both the pounds and pence units are needed when writing the amount in pence,하,0,,100.0,eedi,active
+KC-E32,MC-E13929,,Does not understand inequality notation,하,0,,16.667,eedi,active
+KC-E32,MC-E14367,,Hasn't lined up the place value columns when writing out the calculation,하,0,,6.667,eedi,active
+KC-E32,MC-E15628,,Believes 0 multiplied by a number gives the number,하,0,,7.143,eedi,active
+KC-E32,MC-E18200,수를 비교할 때 끝자리부터 비교함,Believes that when ordering numbers they should start comparing from the digits at the end of the number,중,1,,2.5,eedi,active
+KC-E32,MC-E18880,,"Believes a number with a larger first digit is bigger, regardless of place value",하,0,,25.0,eedi,active
+KC-E32,MC-E20098,,Believes numbers with the same digits are equal regardless of the position of the digits within each number,하,0,,10.0,eedi,active
+KC-E32,MC-E22129,부등호 >와 <를 혼동함,Confuses greater than and less than symbols,중,1,R-condition,1.77,eedi,active
+KC-E32,MC-E23852,,Thinks the equals sign can be used with values that are close in value but not exactly the same,하,0,,14.286,eedi,active
+KC-E410,MC-E13716,빼야 하는데 더함,Adds instead of subtracts,중,1,,1.399,eedi,active
+KC-E410,MC-E14110,,Believes you can have decimals in a simplified fraction,하,0,,21.429,eedi,active
+KC-E410,MC-E14494,,Simplifies integers when simplifying a mixed number,하,0,,100.0,eedi,active
+KC-E410,MC-E14537,,Does not fully simplify fraction,하,0,,5.405,eedi,active
+KC-E410,MC-E15074,,Believes mixed numbers cannot be simplified,하,0,,100.0,eedi,active
+KC-E410,MC-E15245,,"When solving an equation, multiplies instead of dividing",하,0,,25.0,eedi,active
+KC-E410,MC-E15266,,Thinks that a unit fraction can be simplified further,하,0,,60.0,eedi,active
+KC-E410,MC-E15267,,Does not recognise when a fraction can be simplified,하,0,,10.714,eedi,active
+KC-E410,MC-E15444,문제의 그림을 이해하지 못함,Does not understand the diagram given in the question,중,1,,1.389,eedi,active
+KC-E410,MC-E15522,약분할 때 분자와 분모를 서로 다른 수로 나눔,Believes when simplifying a fraction you can divide the numerator and denominator by different values,중,1,P-reduce,9.375,eedi,active
+KC-E410,MC-E17763,크기가 같은 분수를 만들 때 분자와 분모에 서로 다른 수를 곱해도 된다고 생각함,Believes when making an equivalent fraction you can multiply the numerator and denominator by different values,중,1,,7.143,eedi,active
+KC-E410,MC-E21744,,Believes that dividing a fraction by an integer involves adding the integer to the denominator instead of multiplying the denominator by the integer,하,0,,20.0,eedi,active
+KC-E410,MC-E24501,"분수의 뺄셈에서 분자끼리, 분모끼리 빼면 된다고 생각함","When subtracting fractions, believes you just subtract the numerators and subtract the denominators",중,1,,4.878,eedi,active
+KC-E411,MC-E13948,,Does not know the definition of a prime number,하,0,,0.962,eedi,active
+KC-E411,MC-E14110,,Believes you can have decimals in a simplified fraction,하,0,,78.571,eedi,active
+KC-E411,MC-E14137,,Does not know that you can leave a fraction in improper form,하,0,,42.857,eedi,active
+KC-E411,MC-E14537,,Does not fully simplify fraction,하,0,,59.459,eedi,active
+KC-E411,MC-E14538,,"Thinks if there is the same digit in the numerator and denominator of a fraction, it can be cancelled",하,0,,50.0,eedi,active
+KC-E411,MC-E14539,,Thinks fractions can't be simplified if both numerator and denominator are odd,하,0,,100.0,eedi,active
+KC-E411,MC-E15147,,"When dividing a fraction by an integer, divides both the numerator and denominator by the integer",하,0,,12.5,eedi,active
+KC-E411,MC-E15267,,Does not recognise when a fraction can be simplified,하,0,,19.643,eedi,active
+KC-E411,MC-E15511,,Assumes a fact without considering enough examples,하,0,,5.882,eedi,active
+KC-E411,MC-E15522,약분할 때 분자와 분모를 서로 다른 수로 나눔,Believes when simplifying a fraction you can divide the numerator and denominator by different values,중,1,P-reduce,15.625,eedi,active
+KC-E411,MC-E15851,,"Does not think that when the numerator and denominator are equal, that it is equivalent to 1",하,0,,50.0,eedi,active
+KC-E411,MC-E16007,,Assumes fractions with prime numerators cannot be simplified,하,0,,100.0,eedi,active
+KC-E411,MC-E16304,,Believes that a number divided by itself equals 0,하,0,,22.222,eedi,active
+KC-E411,MC-E17502,,Believes that a number divided by itself equals the original number,하,0,,100.0,eedi,active
+KC-E411,MC-E17503,,Believes dividing a surd by itself gives the number under the surd,하,0,,100.0,eedi,active
+KC-E411,MC-E18392,,Believes equivalent fractions can be formed with subtraction as well as multiplication,하,0,,22.222,eedi,active
+KC-E411,MC-E19414,,"When finding equivalent fractions, thinks the multiplier is the new numerator",하,0,,33.333,eedi,active
+KC-E411,MC-E19429,,Believes you divide the sum of the numerator and denominator when dividing a fraction by an integer,하,0,,100.0,eedi,active
+KC-E411,MC-E19430,,Thinks dividing a fraction by an integer involves subtracting the integer from the numerator,하,0,,100.0,eedi,active
+KC-E411,MC-E21651,"분수의 덧셈에서 분자끼리, 분모끼리 각각 더한다고 생각함",Believes that fractions are added by summing numerators and denominators as if they are separate whole numbers,중,1,K-frac-common,2.959,eedi,active
+KC-E411,MC-E21744,,Believes that dividing a fraction by an integer involves adding the integer to the denominator instead of multiplying the denominator by the integer,하,0,,30.0,eedi,active
+KC-E411,MC-E22306,,Believes that simplifying a fraction involves approximating rather than finding an equivalent fraction with smaller terms,하,0,,33.333,eedi,active
+KC-E411,MC-E22489,분수와 소수를 변환 없이 바꿔 써도 된다고 생각하고 익숙한 형태를 선택함,Believes that fractions and decimals are interchangeable representations and chooses the more familiar form,중,1,K-decimal,15.385,eedi,active
+KC-E411,MC-E23869,,"Believes that equivalent fractions can be found by dividing the numerator by the denominator of another fraction, misunderstanding the concept of cross-multiplication or scaling",하,0,,100.0,eedi,active
+KC-E411,MC-E24502,분자와 분모에 공약수가 남아 있어도 기약분수라고 봄,Believes a fraction is fully simplified when the numerator and denominator still have common factors greater than 1,중,1,P-reduce,2.128,eedi,active
+KC-E411,MC-E24732,,Believes they can simplify a fraction by adding or subtracting the same amount to/from the numerator and denominator,하,0,,5.0,eedi,active
+KC-E411,MC-E24975,,Believes that the parts of a fraction diagram do not have to be equal in size,하,0,,2.381,eedi,active
+KC-E411,MC-E26181,,Believes that multiplying fractions involves adding the numerators and adding the denominators,하,0,,2.941,eedi,active
+KC-E411,MC-E26183,분수의 곱셈에서 분모끼리 곱하지 않고 더한다고 생각함,"Believes that when multiplying fractions, the operation on the denominators is addition rather than multiplication",중,1,K-frac-common,7.692,eedi,active
+KC-E411,MC-E26188,,"Believes that dividing fractions involves multiplying both numerators and denominators, therefore missing the ""Flip"" part of ""Keep, Change, Flip""",하,0,,10.526,eedi,active
+KC-E411,MC-E26989,통분할 때 분자는 그대로 둔다고 생각함,Believes numerators stay the same when finding common denominators,중,1,K-frac-common,4.762,eedi,active
+KC-E409,MC-E14007,,Believes equivalent fractions are formed with addition not multiplication,하,0,,75.926,eedi,active
+KC-E409,MC-E14008,,Believes equivalent fractions can be formed with addition as well as multiplication,하,0,,92.308,eedi,active
+KC-E409,MC-E14089,,Believes that fractions with the same denominator are equal,하,0,,36.842,eedi,active
+KC-E409,MC-E14092,,Mixes up the numerator and denominator,하,0,,6.061,eedi,active
+KC-E409,MC-E15151,,Thinks the fraction bar means subtract rather than divide,하,0,,4.651,eedi,active
+KC-E409,MC-E15266,,Thinks that a unit fraction can be simplified further,하,0,,40.0,eedi,active
+KC-E409,MC-E15267,,Does not recognise when a fraction can be simplified,하,0,,16.071,eedi,active
+KC-E409,MC-E15439,,"Believes that if the numerators of 2 fractions are equal then the fractions are equal, regardless of the denominator",하,0,,63.636,eedi,active
+KC-E409,MC-E15498,,Believes percentages cannot be converted into fractions,하,0,,16.667,eedi,active
+KC-E409,MC-E15522,약분할 때 분자와 분모를 서로 다른 수로 나눔,Believes when simplifying a fraction you can divide the numerator and denominator by different values,중,1,P-reduce,21.875,eedi,active
+KC-E409,MC-E15658,,"Thinks they are finding a possible value, not impossible",하,0,,1.587,eedi,active
+KC-E409,MC-E15797,,Believes shaded parts of a fraction diagram must all be connected,하,0,,16.667,eedi,active
+KC-E409,MC-E17468,,"Believes that n/n = n, instead of 1",하,0,,28.571,eedi,active
+KC-E409,MC-E17668,,Thinks that equivalent fractions can be formed with squaring,하,0,,100.0,eedi,active
+KC-E409,MC-E17669,,Thinks that fractions with the same numerator are equivalent,하,0,,42.5,eedi,active
+KC-E409,MC-E17670,,Thinks you cannot multiply by a decimal to get equivalent fractions,하,0,,100.0,eedi,active
+KC-E409,MC-E17763,크기가 같은 분수를 만들 때 분자와 분모에 서로 다른 수를 곱해도 된다고 생각함,Believes when making an equivalent fraction you can multiply the numerator and denominator by different values,중,1,,57.143,eedi,active
+KC-E409,MC-E18056,색칠된 부분의 분수를 구할 때 분모를 전체 조각 수가 아닌 색칠되지 않은 조각 수로 생각함,"When finding the fraction of a shape that is shaded, believes the denominator is the number of unshaded parts rather than the total number of parts",중,1,K-frac-common,1.471,eedi,active
+KC-E409,MC-E18111,,Believes the numerator is multiplied by the denominator when finding an equivalent fraction,하,0,,66.667,eedi,active
+KC-E409,MC-E18238,,Believes division cannot be used to form equivalent fractions,하,0,,100.0,eedi,active
+KC-E409,MC-E18239,,Thinks multiplication cannot be used to form equivalent fractions,하,0,,100.0,eedi,active
+KC-E409,MC-E18349,,Believes the first mark on a number line is always 1,하,0,,50.0,eedi,active
+KC-E409,MC-E18392,,Believes equivalent fractions can be formed with subtraction as well as multiplication,하,0,,55.556,eedi,active
+KC-E409,MC-E18510,분수의 분자나 분모에 소수가 올 수 있다고 생각함,Believes you can have decimals in a fraction,중,1,K-decimal,20.0,eedi,active
+KC-E409,MC-E19056,,Believes fractions which are reciprocals are equal,하,0,,66.667,eedi,active
+KC-E409,MC-E19247,,Believes an equivalent fraction is found by carrying out one operation to the denominator and the inverse to the numerator,하,0,,88.889,eedi,active
+KC-E409,MC-E19414,,"When finding equivalent fractions, thinks the multiplier is the new numerator",하,0,,66.667,eedi,active
+KC-E409,MC-E19755,,Believes a fraction of an amount is the same as the total amount,하,0,,100.0,eedi,active
+KC-E409,MC-E19780,,Thinks a non-unit fraction has numerator 1,하,0,,100.0,eedi,active
+KC-E409,MC-E19786,,Believes unit fractions are equivalent,하,0,,100.0,eedi,active
+KC-E409,MC-E19787,,"When asked for the fraction of the shape that is shaded, believes the numerator is the number of unshaded parts and the denominator is the number of shaded parts",하,0,,33.333,eedi,active
+KC-E409,MC-E19870,,Believes a fraction of an amount is equal to the denominator of the fraction,하,0,,50.0,eedi,active
+KC-E409,MC-E20776,,Thinks subtracting the same number from numerator and denominator creates equivalent fractions,하,0,,100.0,eedi,active
+KC-E409,MC-E20777,,Thinks the multiplier/divisor becomes the new denominator in equivalent fractions,하,0,,100.0,eedi,active
+KC-E409,MC-E20783,분자와 분모가 클수록 큰 분수라고 생각함,Believes that greater numerators and denominators mean greater fractions,중,1,K-frac-common,80.0,eedi,active
+KC-E409,MC-E21153,,Believes equivalent fractions can only be created by halving the numerator and the denominator,하,0,,100.0,eedi,active
+KC-E409,MC-E21264,,Believes fraction parts of a fraction diagram are integers,하,0,,100.0,eedi,active
+KC-E409,MC-E21606,역연산 대신 원래 연산을 그대로 적용함,Thinks that the original operation should be used instead of applying its inverse to solve an equation,중,1,,0.515,eedi,active
+KC-E409,MC-E21854,n/n이 1과 같음을 알지 못함,Does not know that n/n is equal to 1,중,1,,66.667,eedi,active
+KC-E409,MC-E22128,답이 여러 개일 수 있는데 하나만 있다고 가정함,"Assumes that a question has only one correct answer, even when multiple answers are possible",중,1,,0.571,eedi,active
+KC-E409,MC-E22306,,Believes that simplifying a fraction involves approximating rather than finding an equivalent fraction with smaller terms,하,0,,66.667,eedi,active
+KC-E409,MC-E22489,분수와 소수를 변환 없이 바꿔 써도 된다고 생각하고 익숙한 형태를 선택함,Believes that fractions and decimals are interchangeable representations and chooses the more familiar form,중,1,K-decimal,23.077,eedi,active
+KC-E409,MC-E22626,,"Believes that only numerators need to be changed to create equivalent fractions, ignoring the denominators",하,0,,100.0,eedi,active
+KC-E409,MC-E22629,,Believes fractions can not be equivalent if they have different numbers,하,0,,100.0,eedi,active
+KC-E409,MC-E22632,,Believes that two fractions cannot be equivalent if they are composed of different numerators and denominators,하,0,,41.667,eedi,active
+KC-E409,MC-E22639,크기가 같은 분수를 만들 때 분자는 두고 분모만 바꾸면 된다고 생각함,"Believes that only denominators need to be changed to create equivalent fractions, ignoring the numerators",중,1,,12.121,eedi,active
+KC-E409,MC-E22643,,Assumes that two fractions can only be equivalent if one is an integer multiple of the other,하,0,,100.0,eedi,active
+KC-E409,MC-E22644,,"Assumes that the numerator and denominator are not order-dependent, resulting in the belief that a/b is equivalent to b/a",하,0,,100.0,eedi,active
+KC-E409,MC-E22653,,Believes only fractions with same denominator can be equivalent,하,0,,100.0,eedi,active
+KC-E409,MC-E23103,,"When finding the fraction of a shape that is shaded, believes the denominator is the number of shaded parts rather than the total number of parts",하,0,,100.0,eedi,active
+KC-E409,MC-E23144,,Thinks adding the same number to numerator and denominator creates equivalent fractions,하,0,,100.0,eedi,active
+KC-E409,MC-E23146,,Thinks swapping the numerator and denominator gives an equivalent fraction,하,0,,100.0,eedi,active
+KC-E409,MC-E23804,,Believes we need to multiply rather than divide when scaling down in direct proportion problems,하,0,,8.333,eedi,active
+KC-E409,MC-E23841,,"Believes that estimation is sufficient for solving problems involving diagrams, without needing precise calculations",하,0,,4.651,eedi,active
+KC-E409,MC-E23863,,Believes the difference between numerator and denominator remains constant in equivalent fractions,하,0,,100.0,eedi,active
+KC-E409,MC-E23867,,"Believes that in equivalent fractions, the missing denominator can be directly replaced by the numerator of the other fraction",하,0,,100.0,eedi,active
+KC-E409,MC-E24681,,"Assumes any equivalent fraction is a fully correct answer, ignoring the specific denominator requested",하,0,,100.0,eedi,active
+KC-E409,MC-E24732,,Believes they can simplify a fraction by adding or subtracting the same amount to/from the numerator and denominator,하,0,,50.0,eedi,active
+KC-E409,MC-E24739,,"Believes equivalent fractions have a flipped ratio of numerator to denominator, e.g. 1/2 = 4/2",하,0,,100.0,eedi,active
+KC-E409,MC-E24957,,Thinks equivalent fractions can only be formed using integer multipliers,하,0,,100.0,eedi,active
+KC-E409,MC-E25871,색칠된 부분을 묻는데 남은 부분을 답함,"When asked to calculate the amount/fraction of a model that is shaded or filled, believes the answer is the amount/fraction that is needed to completely shade/fill the model",중,1,,5.357,eedi,active
+KC-E409,MC-E26326,,Believes that rounding numbers early in calculations will not affect the accuracy of the final result,하,0,,40.0,eedi,active
+KC-E409,MC-E26577,,Believes a number written in words cannot match a fraction model or numerical representation of a quantity,하,0,,40.0,eedi,active
+KC-E409,MC-E26731,,Believes identical fractions are not equivalent,하,0,,100.0,eedi,active
+KC-E409,MC-E26745,,"Believes that fractions are only simplified when explicitly instructed, not understanding the benefits of simplification for comparison or calculation",하,0,,50.0,eedi,active
+KC-E409,MC-E26787,,Believes that dividing a number by itself results in the original number rather than 1,하,0,,100.0,eedi,active
+KC-E409,MC-E27493,,Believes equivalent ratios must always be found by multiplication rather than division,하,0,,50.0,eedi,active
+KC-E409,MC-E27636,,Believes the numerator of an equivalent fraction is the difference between the new denominator and the original denominator,하,0,,66.667,eedi,active
+KC-E409,MC-E27637,,Believes numerator and denominator must be equal,하,0,,100.0,eedi,active
+KC-E409,MC-E27638,,Believes a missing value in a numerator is always equal to the total denominator,하,0,,100.0,eedi,active
+KC-E409,MC-E27639,,Thinks a unit fraction can have a numerator greater than 1,하,0,,100.0,eedi,active
+KC-E409,MC-E27640,,Believes you divide the numerator by the multiplier but subtract the multiplier from the denominator when finding equivalent fractions,하,0,,100.0,eedi,active
+KC-E409,MC-E27641,,Believes equivalent fractions cannot include odd numbers,하,0,,100.0,eedi,active
+KC-E409,MC-E27868,,Thinks square rooting can be used to find equivalent fractions,하,0,,100.0,eedi,active
+KC-E409,MC-E29004,중간값을 구하면 계산이 끝났다고 봄,"Thinks that once an intermediate value is calculated, no further operations are needed to reach the final solution",중,1,R-partial,3.896,eedi,active
+KC-E446,MC-E14069,분수를 약분하는 것을 잊음,Forgot to simplify the fraction,중,1,P-reduce,11.765,eedi,active
+KC-E446,MC-E14090,분모가 큰 분수가 크기도 더 크다고 믿음,Believes that fractions with larger denominators are greater in size,중,1,,1.333,eedi,active
+KC-E446,MC-E14243,,Identifies the wrong part of a fraction model as the whole,하,0,,50.0,eedi,active
+KC-E446,MC-E15147,,"When dividing a fraction by an integer, divides both the numerator and denominator by the integer",하,0,,87.5,eedi,active
+KC-E446,MC-E15387,,Thinks halving is the same as multiplying by 2,하,0,,9.091,eedi,active
+KC-E446,MC-E15658,,"Thinks they are finding a possible value, not impossible",하,0,,4.762,eedi,active
+KC-E446,MC-E18692,,"When dividing a fraction by an integer, believes you take the reciprocal of the fraction",하,0,,80.0,eedi,active
+KC-E446,MC-E19354,,Believes reciprocal of a fraction division result is the final answer,하,0,,33.333,eedi,active
+KC-E446,MC-E19449,,"When dividing a fraction by an integer, adds the integer to the numerator",하,0,,100.0,eedi,active
+KC-E446,MC-E21742,,Believes that dividing a fraction by an integer requires multiplying both the numerator and denominator by that integer,하,0,,44.444,eedi,active
+KC-E446,MC-E21744,,Believes that dividing a fraction by an integer involves adding the integer to the denominator instead of multiplying the denominator by the integer,하,0,,20.0,eedi,active
+KC-E446,MC-E21805,,Believes that dividing a fraction by an integer is equivalent to multiplying the fraction by the integer,하,0,,26.667,eedi,active
+KC-E446,MC-E22458,,Believes the first fraction in a division problem should be inverted instead of the second,하,0,,15.686,eedi,active
+KC-E446,MC-E26135,,Believes that dividing a fraction by an integer involves dividing the numerator and multiplying the denominator by that integer,하,0,,100.0,eedi,active
+KC-E446,MC-E26184,,"Believes that to divide a fraction by an integer, we just divide the denominator by the integer",하,0,,38.462,eedi,active
+KC-E446,MC-E26186,,Believes that the reciprocal of an integer is the original integer,하,0,,46.154,eedi,active
+KC-E446,MC-E26188,,"Believes that dividing fractions involves multiplying both numerators and denominators, therefore missing the ""Flip"" part of ""Keep, Change, Flip""",하,0,,2.632,eedi,active
+KC-E446,MC-E27309,,Believes that dividing a fraction by a whole number involves multiplying the denominator by the numerator,하,0,,50.0,eedi,active
+KC-E446,MC-E27620,,"Believes that taking the reciprocal is necessary for both fractions when dividing fractions (before then multiplying), rather than just the divisor",하,0,,18.182,eedi,active
+KC-E446,MC-E28128,,Believes dividing by a number is different to multiplying by its reciprocal,하,0,,25.0,eedi,active
+KC-E447,MC-E14223,음수끼리 더하면 양수가 된다고 생각함,Believes adding two negatives gives a positive answer,중,1,C-neg-cancel,2.632,eedi,active
+KC-E447,MC-E15361,,"When dividing an integer by a fraction, thinks they can just multiply instead",하,0,,20.0,eedi,active
+KC-E447,MC-E15533,,"When dividing an integer by a fraction, thinks they multiply numerator and denominator by the integer",하,0,,66.667,eedi,active
+KC-E447,MC-E16900,,Thinks dividing by a fraction will always make numbers smaller,하,0,,33.333,eedi,active
+KC-E447,MC-E16902,,Believes multiplying by fractions less than 1 results in a larger number,하,0,,20.0,eedi,active
+KC-E447,MC-E16903,,Believes multiplying always makes numbers bigger,하,0,,25.0,eedi,active
+KC-E447,MC-E16904,,Believes dividing always makes numbers smaller,하,0,,66.667,eedi,active
+KC-E447,MC-E21742,,Believes that dividing a fraction by an integer requires multiplying both the numerator and denominator by that integer,하,0,,5.556,eedi,active
+KC-E447,MC-E21849,,"Believes a non-unit amount can be multiplied directly in a proportion question, without finding the unit amount first or adjusting the multiplier",하,0,,2.778,eedi,active
+KC-E447,MC-E22224,,Believes dividing by a non-unit fraction is equivalent to multiplying by its denominator (overgeneralises from unit fractions),하,0,,66.667,eedi,active
+KC-E447,MC-E22458,,Believes the first fraction in a division problem should be inverted instead of the second,하,0,,1.961,eedi,active
+KC-E447,MC-E24502,분자와 분모에 공약수가 남아 있어도 기약분수라고 봄,Believes a fraction is fully simplified when the numerator and denominator still have common factors greater than 1,중,1,P-reduce,2.128,eedi,active
+KC-E447,MC-E26186,,Believes that the reciprocal of an integer is the original integer,하,0,,15.385,eedi,active
+KC-E448,MC-E15429,,Believes you keep the divisor unchanged when dividing by a fraction,하,0,,100.0,eedi,active
+KC-E448,MC-E18803,,Misinterprets the fraction asked for when finding a fraction of an amount,하,0,,33.333,eedi,active
+KC-E448,MC-E21605,,Thinks that the original operation should be used instead of applying its inverse to solve for a missing number,하,0,,100.0,eedi,active
+KC-E448,MC-E21651,"분수의 덧셈에서 분자끼리, 분모끼리 각각 더한다고 생각함",Believes that fractions are added by summing numerators and denominators as if they are separate whole numbers,중,1,K-frac-common,1.775,eedi,active
+KC-E448,MC-E22128,답이 여러 개일 수 있는데 하나만 있다고 가정함,"Assumes that a question has only one correct answer, even when multiple answers are possible",중,1,,0.571,eedi,active
+KC-E448,MC-E22169,문장제에서 주어진 수를 전부 더하면 된다고 봄,"Believes word problems can be solved by adding all given numbers, regardless of context",중,1,,2.02,eedi,active
+KC-E448,MC-E22224,,Believes dividing by a non-unit fraction is equivalent to multiplying by its denominator (overgeneralises from unit fractions),하,0,,33.333,eedi,active
+KC-E448,MC-E22448,,"Believes that dividing fractions involves dividing the denominators directly, rather than multiplying by the reciprocal",하,0,,100.0,eedi,active
+KC-E448,MC-E22458,,Believes the first fraction in a division problem should be inverted instead of the second,하,0,,15.686,eedi,active
+KC-E448,MC-E23021,,"When dividing fractions, thinks you can just change the divide to a multiply without having to flip the second fraction",하,0,,33.333,eedi,active
+KC-E448,MC-E25820,,Believes area is calculated by adding two sides of a shape,하,0,,1.538,eedi,active
+KC-E448,MC-E26188,,"Believes that dividing fractions involves multiplying both numerators and denominators, therefore missing the ""Flip"" part of ""Keep, Change, Flip""",하,0,,15.789,eedi,active
+KC-E448,MC-E26190,,"Believes that dividing fractions requires taking the reciprocal of both fractions before multiplying, instead of just the divisor",하,0,,35.0,eedi,active
+KC-E448,MC-E27620,,"Believes that taking the reciprocal is necessary for both fractions when dividing fractions (before then multiplying), rather than just the divisor",하,0,,9.091,eedi,active
+KC-E449,MC-E15278,분수 문장제를 해석하지 못함,Does not know how to interpret a fraction worded problem,중,1,,5.263,eedi,active
+KC-E449,MC-E19427,,Confuses total pieces with fraction of total pieces,하,0,,100.0,eedi,active
+KC-E449,MC-E21742,,Believes that dividing a fraction by an integer requires multiplying both the numerator and denominator by that integer,하,0,,11.111,eedi,active
+KC-E450,MC-E15733,,Thinks we can't write an equivalent multiplication sum for a division sum by using a reciprocal,하,0,,100.0,eedi,active
+KC-E451,MC-E22223,,"When dividing fractions, believes after taking the reciprocal of the second fraction you still divide, rather than multiply, the numerators and denominators",하,0,,66.667,eedi,active
+KC-E451,MC-E22458,,Believes the first fraction in a division problem should be inverted instead of the second,하,0,,3.922,eedi,active
+KC-E451,MC-E23018,,"When dividing fractions, thinks you can just divide the numerators and the denominators",하,0,,100.0,eedi,active
+KC-E451,MC-E23021,,"When dividing fractions, thinks you can just change the divide to a multiply without having to flip the second fraction",하,0,,33.333,eedi,active
+KC-E451,MC-E26190,,"Believes that dividing fractions requires taking the reciprocal of both fractions before multiplying, instead of just the divisor",하,0,,10.0,eedi,active
+KC-E451,MC-E26745,,"Believes that fractions are only simplified when explicitly instructed, not understanding the benefits of simplification for comparison or calculation",하,0,,3.846,eedi,active
+KC-E452,MC-E13735,,Believes division is commutative,하,0,,1.481,eedi,active
+KC-E452,MC-E15539,,"When the dividend is a mixed number and the divisor is an integer, thinks they only perform the calculation with the integers",하,0,,66.667,eedi,active
+KC-E452,MC-E15540,,"When the dividend is a mixed number and the divisor is an integer, thinks they only divide the fraction by the integer",하,0,,66.667,eedi,active
+KC-E453,MC-E13735,,Believes division is commutative,하,0,,1.481,eedi,active
+KC-E453,MC-E23021,,"When dividing fractions, thinks you can just change the divide to a multiply without having to flip the second fraction",하,0,,33.333,eedi,active
+KC-E453,MC-E23027,,Assumes that when dividing by a mixed number we can partition the divisor into its whole and fractional parts and divide by each part in turn,하,0,,100.0,eedi,active
+KC-E454,MC-E22458,,Believes the first fraction in a division problem should be inverted instead of the second,하,0,,1.961,eedi,active
+KC-E454,MC-E26188,,"Believes that dividing fractions involves multiplying both numerators and denominators, therefore missing the ""Flip"" part of ""Keep, Change, Flip""",하,0,,5.263,eedi,active
+KC-E454,MC-E27620,,"Believes that taking the reciprocal is necessary for both fractions when dividing fractions (before then multiplying), rather than just the divisor",하,0,,9.091,eedi,active
+KC-E422,MC-E14059,대분수와 가분수를 혼동함,Confused mixed numbers with improper fractions,중,1,,10.345,eedi,active
+KC-E422,MC-E14062,대분수의 자연수 부분이 가분수 분자의 십의 자리를 나타낸다고 생각함,Thinks the number of wholes in a mixed number represents the tens from the numerator of an improper fraction,중,1,,84.615,eedi,active
+KC-E422,MC-E15315,,Thinks you multiply by the numerator and add the denominator when converting a mixed number to an improper fraction,하,0,,100.0,eedi,active
+KC-E422,MC-E15332,대분수를 가분수로 고칠 때 자연수 부분을 분자에 더한다고 생각함,Thinks you add the number of wholes to the numerator when converting a mixed number to an improper fraction,중,1,,72.727,eedi,active
+KC-E422,MC-E15441,,Writes the number of whole units as part of the numerator when converting a mixed number to improper fraction,하,0,,100.0,eedi,active
+KC-E422,MC-E15442,,Thinks the denominator changes when converting a mixed number to an improper fraction,하,0,,100.0,eedi,active
+KC-E422,MC-E17369,,"Thinks when writing a mixed number fraction as an improper fraction, you need to multiply the denominator by the whole",하,0,,100.0,eedi,active
+KC-E422,MC-E18660,,Believes number of wholes must be added to both numerator and denominator when converting a mixed number to an improper fraction,하,0,,100.0,eedi,active
+KC-E422,MC-E18662,,Thinks you multiply the numerator by the denominator and add the number of wholes when converting a mixed number to improper fraction,하,0,,100.0,eedi,active
+KC-E422,MC-E19357,,Believes a numerator cannot be larger than a denominator,하,0,,40.0,eedi,active
+KC-E422,MC-E19358,수직선에서 이전 정수부터 해당 분수까지의 칸 수를 분모로 생각함,"Believes the number of gaps on a number line, from the previous integer up to the required fraction, represents the denominator of the fraction",중,1,,50.0,eedi,active
+KC-E422,MC-E19359,,"When asked to convert a mixed number to an improper fraction, believes they write an equivalent calculation",하,0,,100.0,eedi,active
+KC-E422,MC-E19360,,Thinks you replace the numerator with the number of wholes when converting a mixed number to an improper fraction,하,0,,50.0,eedi,active
+KC-E422,MC-E21826,,Believes an improper fraction a/b is equivalent to the mixed number a 1/b,하,0,,20.0,eedi,active
+KC-E422,MC-E22297,,Believes that the whole number part of a mixed number should be multiplied by the numerator instead of the denominator when converting to an improper fraction,하,0,,83.333,eedi,active
+KC-E422,MC-E22472,,"Believes that converting a mixed number to an improper fraction only involves multiplying the whole number by the denominator, ignoring the addition of the numerator",하,0,,100.0,eedi,active
+KC-E423,MC-E14058,,"When converting from an improper fraction to a mixed number, just writes the tens digit as the number of wholes",하,0,,71.429,eedi,active
+KC-E423,MC-E14059,대분수와 가분수를 혼동함,Confused mixed numbers with improper fractions,중,1,,13.793,eedi,active
+KC-E423,MC-E14060,,"When converting from an improper fraction to a mixed number, adds on the part left to make the whole, rather than subtracting it",하,0,,100.0,eedi,active
+KC-E423,MC-E14061,,Writes the numerator of an improper fraction as the number of wholes when converting to a mixed number,하,0,,100.0,eedi,active
+KC-E423,MC-E14062,대분수의 자연수 부분이 가분수 분자의 십의 자리를 나타낸다고 생각함,Thinks the number of wholes in a mixed number represents the tens from the numerator of an improper fraction,중,1,,7.692,eedi,active
+KC-E423,MC-E14064,,Finds an equivalent improper fraction when asked for a mixed number,하,0,,100.0,eedi,active
+KC-E423,MC-E14065,,Does not understand that a remainder can be written as a fraction,하,0,,57.143,eedi,active
+KC-E423,MC-E15332,대분수를 가분수로 고칠 때 자연수 부분을 분자에 더한다고 생각함,Thinks you add the number of wholes to the numerator when converting a mixed number to an improper fraction,중,1,,9.091,eedi,active
+KC-E423,MC-E15828,,Believes the whole and remainder are the other way when changing an improper fraction to a mixed number,하,0,,100.0,eedi,active
+KC-E423,MC-E15830,,"Believes when changing an improper fraction to a mixed number you divide the numerator by 10, regardless of the denominator",하,0,,100.0,eedi,active
+KC-E423,MC-E18110,,"When multiplying a fraction by an integer, believes you multiply the denominator by the integer",하,0,,10.526,eedi,active
+KC-E423,MC-E18658,,"When converting improper fraction to mixed number, believes number of wholes is found by subtracting the denominator, rather than dividing",하,0,,100.0,eedi,active
+KC-E423,MC-E19369,,Confuses mixed number format and decimal format,하,0,,100.0,eedi,active
+KC-E423,MC-E21608,분수에 정수를 곱할 때 분자와 분모에 모두 곱함,Believes that multiplying a fraction by an integer requires multiplying both the numerator and the denominator by that integer,중,1,,2.299,eedi,active
+KC-E423,MC-E21811,,Believes that the numerator of an improper fraction becomes the denominator in the mixed number form,하,0,,100.0,eedi,active
+KC-E423,MC-E21826,,Believes an improper fraction a/b is equivalent to the mixed number a 1/b,하,0,,40.0,eedi,active
+KC-E423,MC-E21850,,"Thinks when multiplying a fraction by a whole number, we multiply the denominator, not the numerator",하,0,,20.0,eedi,active
+KC-E423,MC-E22297,,Believes that the whole number part of a mixed number should be multiplied by the numerator instead of the denominator when converting to an improper fraction,하,0,,16.667,eedi,active
+KC-E423,MC-E22517,,"Believes when converting mixed numbers to improper fractions, the numerator will not change",하,0,,100.0,eedi,active
+KC-E423,MC-E26193,대분수를 정수와 분수의 곱으로 생각함,Believes mixed fractions are an integer multiplied by a fraction,중,1,,25.0,eedi,active
+KC-E270,MC-E13722,뺄셈에 교환법칙이 성립한다고 봄,Believes subtraction is commutative,중,1,P-sign,1.626,eedi,active
+KC-E270,MC-E14310,음수끼리의 곱이 음수라고 봄,Believes multiplying two negatives gives a negative answer,중,1,,3.597,eedi,active
+KC-E270,MC-E14584,음수의 제곱도 음수라고 생각함,Believes the square of a negative will also be negative,중,1,,10.204,eedi,active
+KC-E270,MC-E15214,양수와 음수의 곱이 양수라고 봄,Believes multiplying a positive by a negative gives a positive answer,중,1,,4.255,eedi,active
+KC-E270,MC-E15392,음수를 음수로 나누면 음수가 된다고 생각함,Believes dividing a negative by a negative gives a negative answer,중,1,,2.941,eedi,active
+KC-E270,MC-E16185,,Believes raising a negative number to an odd power will give a positive answer,하,0,,66.667,eedi,active
+KC-E270,MC-E21594,,"Believes that in expressions with indices, the base should be multiplied by the index",하,0,,4.762,eedi,active
+KC-E270,MC-E21614,,Believes that brackets do not affect the order of operations and can be ignored,하,0,,2.5,eedi,active
+KC-E270,MC-E21704,음수를 빼면 양수를 더하는 것이 아니라 값이 작아진다고 생각함,Believes that subtracting a negative number results in a smaller value rather than adding the positive equivalent,중,1,C-neg-sub,4.762,eedi,active
+KC-E270,MC-E21781,,Confuses cubing and squaring,하,0,,3.333,eedi,active
+KC-E270,MC-E21823,,Believes the base of an exponent includes any preceding coefficients or negative signs,하,0,,14.286,eedi,active
+KC-E270,MC-E24730,음수를 빼는 것을 그 절댓값을 빼는 것과 같다고 생각함,Believes that subtracting a negative number is equivalent to subtracting its absolute value,중,1,C-neg-sub,6.061,eedi,active
+KC-E270,MC-E26868,,Believes that the exponentiation operation involves multiplying the base by the exponent rather than raising the base to the power of the exponent,하,0,,4.0,eedi,active
+KC-E270,MC-E27728,,Believes the product of a and -b is not equivalent to the product of -a and b,하,0,,100.0,eedi,active
+KC-E856,MC-E14095,,Adds instead of multiplies,하,0,,0.87,eedi,active
+KC-E856,MC-E14905,,Believes order of operations does not affect the answer to a calculation,하,0,,15.385,eedi,active
+KC-E856,MC-E15553,,Thinks index notation represents repeated addition rather than repeated multiplication,하,0,,5.556,eedi,active
+KC-E856,MC-E16051,,Believes a power can be applied to any number in a calculation,하,0,,100.0,eedi,active
+KC-E856,MC-E16052,,Believes division is carried out before a power,하,0,,50.0,eedi,active
+KC-E856,MC-E21551,연산 순서를 무시하고 왼쪽부터 차례로 계산함,"Believes that mathematical operations should be performed strictly from left to right, ignoring the conventional order of operations",중,1,,7.222,eedi,active
+KC-E856,MC-E21571,제곱을 2배와 같다고 봄,Believes that squaring a number is the same as multiplying it by 2 or doubling it,중,1,,0.427,eedi,active
+KC-E856,MC-E21594,,"Believes that in expressions with indices, the base should be multiplied by the index",하,0,,1.19,eedi,active
+KC-E856,MC-E21666,,Believes multiplication should be performed before indices in the order of operations,하,0,,45.833,eedi,active
+KC-E856,MC-E21711,연산 순서에서 덧셈을 곱셈보다 먼저 계산해야 한다고 생각함,Believes addition should be performed before multiplication in the order of operations,중,1,,15.625,eedi,active
+KC-E856,MC-E21823,,Believes the base of an exponent includes any preceding coefficients or negative signs,하,0,,28.571,eedi,active
+KC-E856,MC-E22416,,"Believes that in expressions with indices, the base should be added to the index",하,0,,2.222,eedi,active
+KC-E856,MC-E26868,,Believes that the exponentiation operation involves multiplying the base by the exponent rather than raising the base to the power of the exponent,하,0,,8.0,eedi,active
+KC-E3849,MC-E23026,거리가 음수 값을 가질 수 있다고 생각함,Believes distance can take a negative value,중,1,,44.444,eedi,active
+KC-E3849,MC-E25092,,Thinks you convert any decimal to a fraction by using the digits after the decimal point as the denominator of a unit fraction,하,0,,5.128,eedi,active
+KC-E3849,MC-E25100,,Believes the distance between two objects moving in different directions is found by subtraction,하,0,,100.0,eedi,active
+KC-E3849,MC-E25101,,"Thinks they find the distance between two points on a number line by adding the two values, rather than subtracting",하,0,,100.0,eedi,active
+KC-E3849,MC-E27367,,"When an addition results in an exchange, believes the exchanged value 'disappears' and so is not included in the final answer",하,0,,1.449,eedi,active
+KC-E3137,MC-E15817,"≥, ≤를 >, <와 혼동함","When using inequality notation, thinks ""greater than/less than or equal to"" symbols are instead the ""greater than/less than"" symbols and vice versa",중,1,R-condition,4.348,eedi,active
+KC-E3137,MC-E22281,부등호 '>'와 '<'가 등호를 포함한다고 생각함,Believes that the symbols '>' and '<' represent inclusive not strict inequalities,중,1,R-condition,9.524,eedi,active
+KC-E3116,MC-E19174,수직선에서 값을 읽을 때 가장 가까운 눈금 값으로 반올림함,"When reading from a number line, thinks you round to the nearest marked value",중,1,,25.0,eedi,active
+KC-E3116,MC-E22134,,"Assumes a filled circle on a number line represents strict inequality (< or >), and an unfilled circle represents inclusive inequality (<= or >=)",하,0,,5.0,eedi,active
