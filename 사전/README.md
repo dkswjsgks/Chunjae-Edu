@@ -5,7 +5,7 @@
 | 파일 | 한 행 | 규모 |
 |---|---|---|
 | `지식.csv` | 지식 하나 | 21개(1차 대상 5개·첫 실험 2개 표시) |
-| `KC.csv` | KC 하나 | Eedi KC 54개 + 빈칸 KC 초안 3개(`status=draft`). 묶은 버전 21묶음 |
+| `KC.csv` | KC 하나 | Eedi KC 54개 + 빈칸 KC 5개(`KC-N001~N005`, `status=active`). 묶은 버전 23묶음 |
 | `오개념.csv` | KC–오개념 연결 하나 | 620행, 오개념 381개. 매핑 후보 556행(관련도 상·중) |
 | `오류유형.csv` | 오개념 상위 분류 하나 | 5개 고정 |
 | `원본/Eedi_KC_오개념_사전_1-1.xlsx` | 팀이 만든 원본 엑셀 | Eedi Misconceptions Graph v1.0 기반 |
@@ -15,7 +15,7 @@
 만드는 순서(레포 루트에서):
 ```powershell
 python "1단계 사전/1_build_knowledge_dictionary.py"   # 지식.csv
-python "1단계 사전/2_import_eedi_kc_dictionary.py"    # KC.csv, 오개념.csv (엑셀 변환 + 빈칸 KC 초안)
+python "1단계 사전/2_import_eedi_kc_dictionary.py"    # KC.csv, 오개념.csv (엑셀 변환 + 빈칸 KC)
 python "1단계 사전/3_build_kc_groups.py"              # KC.csv의 kc_group 채움
 ```
 
