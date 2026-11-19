@@ -1,11 +1,11 @@
 """
-[2단계 Q행렬 / 9 통합 보기] 첫 실험 단원의 문항마다 단원 분류 - 붙은 KC - KC에 연결된 오개념을 한 파일에서 보는 CSV를 만든다.
+[2단계 Q행렬 / 4 통합 보기] 첫 실험 단원의 문항마다 단원 분류 - 붙은 KC - KC에 연결된 오개념을 한 파일에서 보는 CSV를 만든다.
 
 실행 (레포 루트에서):
-  python "2단계 Q행렬/9_build_overview.py" --kc-run 2-2-KC배정-openai-original-20261119-07
+  python "2단계 Q행렬/4_build_overview.py" --kc-run 2-2-KC배정-openai-original-20261119-07
 
 입력: 2단계 2_문항KC배정/결과/<kc-run>/문항_KC.csv, 문항_누락.csv / 분석 데이터/문항.csv / 사전/KC.csv, 오개념.csv
-출력: 2단계 Q행렬/문항_KC_오개념_통합.csv  (UTF-8 BOM, 엑셀에서 바로 열린다)
+출력: 2단계 Q행렬/2_문항KC배정/결과/<kc-run>/문항_KC_오개념.csv  (UTF-8 BOM, 엑셀에서 바로 열린다. 배정 결과와 같은 실행 폴더에 둔다)
 
 한 행 = 문항 하나 × 그 문항에 붙은 KC 하나. 문항에 KC가 안 붙었으면 그 문항은 KC 칸이 빈 한 행만 둔다.
 - 단원 분류: 지식, 대단원, 중단원, 소단원, 토픽, 문항ID, 문항유형, 정답키
@@ -27,7 +27,6 @@ import data_io  # noqa: E402
 import paths  # noqa: E402
 
 CONFIG = {"kc_run": "", "max_mc": 10}
-OUT = HERE / "문항_KC_오개념_통합.csv"
 REL = {"상": 0, "중": 1, "하": 2}
 
 
@@ -84,8 +83,9 @@ def main():
                          "풀이단계": " / ".join(f"{s}단계" for s, _ in sorted(steps)),
                          "연결오개념수": n_mc, "연결오개념": cell})
     out = pd.DataFrame(rows)
+    OUT = run / "문항_KC_오개념.csv"
     out.to_csv(OUT, index=False, encoding="utf-8-sig")
-    print(f"{OUT.name}: {len(out)}행, 문항 {out['문항ID'].nunique()}개, KC 없는 문항 {int((out.KC_ID == '').sum())}개")
+    print(f"{OUT.relative_to(HERE.parent)}: {len(out)}행, 문항 {out['문항ID'].nunique()}개, KC 없는 문항 {int((out.KC_ID == '').sum())}개")
 
 
 if __name__ == "__main__":
